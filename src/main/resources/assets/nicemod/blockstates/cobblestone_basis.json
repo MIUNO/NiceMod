@@ -5,7 +5,8 @@
     },
     "hanging=true": {
       "model": "nicemod:block/cobblestone_basis",
-      "x": 180
+      "x": 180,
+      "uvlock": "true"
     }
   }
 }
