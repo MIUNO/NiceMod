@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "nicemod",
-  "version": "${version}",
+  "version": "0.1",
 
   "name": "NiceMod",
   "description": "Obama",
