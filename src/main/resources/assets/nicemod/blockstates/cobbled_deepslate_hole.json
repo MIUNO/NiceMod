@@ -1,0 +1,15 @@
+{
+    "variants": {
+      "axis=x": {
+        "model": "nicemod:block/cobbled_deepslate_hole",
+        "y": 90
+      },
+      "axis=y": {
+        "model": "nicemod:block/cobbled_deepslate_hole",
+        "x": 90
+      },
+      "axis=z": {
+        "model": "nicemod:block/cobbled_deepslate_hole"
+      }
+    }
+  }

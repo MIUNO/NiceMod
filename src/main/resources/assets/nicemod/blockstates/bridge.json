@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "nicemod:block/bridge"
+    },
+    "facing=east": {
+      "model": "nicemod:block/bridge",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "nicemod:block/bridge"
+    },
+    "facing=west": {
+      "model": "nicemod:block/bridge",
+      "y": 90
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "nicemod",
+  "version": "${version}",
+
+  "name": "NiceMod",
+  "description": "Obama",
+  "authors": [
+    "MIUNO"
+  ],
+  "contact": {
+    "homepage": "https://miuno.ru/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/nicemod/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ru.miuno.nicemod.NiceMod"
+    ]
+  },
+  "mixins": [
+
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
