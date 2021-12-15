@@ -1,4 +1,4 @@
-.gradle
-.vscode
-bin
-run
+.gradle/
+.vscode/
+bin/
+run/
