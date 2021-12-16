@@ -4,11 +4,12 @@
     "block.nicemod.cobbled_deepslate_basis": "Колотая глубинносланцевая основа",
     "block.nicemod.cobblestone_column": "Булыжная колонна",
     "block.nicemod.cobbled_deepslate_column": "Колотая глубинносланцевая колонна",
-    "block.nicemod.bridge": "Мост",
     "block.nicemod.cobblestone_capital": "Булыжный капитель",
     "block.nicemod.cobbled_deepslate_capital": "Колотый глубинносланцевый капитель",
     "block.nicemod.cobblestone_hole": "Булыжное отверстие",
     "block.nicemod.cobbled_deepslate_hole": "Колотое глубинносланцевов отверстие",
     "block.nicemod.cobblestone_recess": "Булыжная выемка",
-    "block.nicemod.cobbled_deepslate_recess": "Колотая глубинносланцевая выемка"
+    "block.nicemod.cobbled_deepslate_recess": "Колотая глубинносланцевая выемка",
+    "block.nicemod.bridge": "Мост",
+    "block.nicemod.cannon": "Пушка"
 }
