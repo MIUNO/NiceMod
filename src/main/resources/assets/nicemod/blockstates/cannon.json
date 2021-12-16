@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "nicemod:block/cannon",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "nicemod:block/cannon",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "nicemod:block/cannon"
+    },
+    "facing=west": {
+      "model": "nicemod:block/cannon",
+      "y": 90
+    }
+  }
+}

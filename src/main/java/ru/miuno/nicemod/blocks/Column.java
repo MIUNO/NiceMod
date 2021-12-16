@@ -35,14 +35,14 @@ public class Column extends PillarBlock implements Waterloggable {
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
         switch ((Direction.Axis)state.get(AXIS)) {
             default: {
-                return VoxelShapes.cuboid(0f, 0.125f, 0.125f,  1f,  0.875f, 0.875f);
+                return VoxelShapes.cuboid(0, 0.125, 0.125,  1,  0.875, 0.875);
             }
             case Z: {
-                return VoxelShapes.cuboid(0.125f, 0.125f, 0.0f,  0.875f,  0.875f, 1.0f);
+                return VoxelShapes.cuboid(0.125, 0.125, 0.0,  0.875,  0.875, 1.0);
             }
             case Y: 
         }
-        return VoxelShapes.cuboid(0.125f, 0.0f, 0.125f,  0.875f,  1.0f, 0.875f);
+        return VoxelShapes.cuboid(0.125, 0.0, 0.125,  0.875,  1.0, 0.875);
     }
 
     @Override

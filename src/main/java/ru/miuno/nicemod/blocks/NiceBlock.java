@@ -27,6 +27,7 @@ public class NiceBlock {
 
     /// Decorate blocks
     public static final Block BRIDGE = registerBlock("bridge", new Bridge(FabricBlockSettings.of(Material.WOOD).strength(3.5f, 6.0f)));
+    public static final Block CANNON = registerBlock("cannon", new Cannon(FabricBlockSettings.of(Material.WOOD).strength(3.5f, 6.0f)));
 
     //  Register
     private static Block registerBlock(String name, Block block){
