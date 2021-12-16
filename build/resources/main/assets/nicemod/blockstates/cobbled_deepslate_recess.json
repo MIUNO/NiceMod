@@ -1,15 +1,19 @@
 {
-    "variants": {
-      "axis=x": {
-        "model": "nicemod:block/cobbled_deepslate_recess",
-        "y": 90
-      },
-      "axis=y": {
-        "model": "nicemod:block/cobbled_deepslate_recess",
-        "x": 90
-      },
-      "axis=z": {
-        "model": "nicemod:block/cobbled_deepslate_recess"
-      }
+  "variants": {
+    "facing=north": {
+      "model": "nicemod:block/cobbled_deepslate_recess"
+    },
+    "facing=east": {
+      "model": "nicemod:block/cobbled_deepslate_recess",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "nicemod:block/cobbled_deepslate_recess",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "nicemod:block/cobbled_deepslate_recess",
+      "y": 270
     }
   }
+}
