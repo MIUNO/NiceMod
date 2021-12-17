@@ -1,7 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "nicemod:block/campfire_log",
+		"0": "nicemod:block/bridge",
 		"particle": "nicemod:block/oak_log"
 	},
 	"elements": [
