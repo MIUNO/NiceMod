@@ -11,5 +11,6 @@
     "block.nicemod.cobblestone_recess": "Булыжная выемка",
     "block.nicemod.cobbled_deepslate_recess": "Колотая глубинносланцевая выемка",
     "block.nicemod.bridge": "Мост",
-    "block.nicemod.cannon": "Пушка"
+    "block.nicemod.cannon": "Пушка",
+    "block.nicemod.mortirer": "Мортира"
 }
