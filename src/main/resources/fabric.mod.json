@@ -3,13 +3,13 @@
   "id": "nicemod",
   "version": "${version}",
 
-  "name": "NiceMod",
-  "description": "Obama",
+  "name": "NiceMod - New blocks",
+  "description": "A mod for Fabric that adds new decorative and building blocks",
   "authors": [
     "MIUNO"
   ],
   "contact": {
-    "homepage": "https://miuno.ru/",
+    "homepage": "https://github.com/MIUNO/NiceMod",
     "sources": "https://github.com/MIUNO/NiceMod"
   },
 
