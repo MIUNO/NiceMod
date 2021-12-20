@@ -10,6 +10,8 @@
     "block.nicemod.cobbled_deepslate_hole": "Колотое глубинносланцевов отверстие",
     "block.nicemod.cobblestone_recess": "Булыжная выемка",
     "block.nicemod.cobbled_deepslate_recess": "Колотая глубинносланцевая выемка",
+    "block.nicemod.cobblestone_slabrecess": "Булыжная выемка в плите",
+    "block.nicemod.cobbled_deepslate_slabrecess": "Колотая глубинносланцевая выемка в плите",
     "block.nicemod.bridge": "Мост",
     "block.nicemod.cannon": "Пушка",
     "block.nicemod.mortirer": "Мортира"

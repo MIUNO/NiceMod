@@ -18,7 +18,7 @@ import net.minecraft.world.BlockView;
 public class Cannon extends HorizontalFacingBlock {
 
     protected Cannon(Settings settings) {
-        super(Settings.of(Material.STONE).nonOpaque());
+        super(Settings.of(Material.WOOD).nonOpaque());
         setDefaultState(this.stateManager.getDefaultState().with(Properties.HORIZONTAL_FACING, Direction.NORTH));
     }
     

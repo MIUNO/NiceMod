@@ -23,6 +23,8 @@ public class NiceBlock {
     public static final Block COBBLED_DEEPSLATE_HOLE = registerBlock("cobbled_deepslate_hole", new Hole(FabricBlockSettings.of(Material.STONE).strength(3.5f, 6.0f)));
     public static final Block COBBLESTONE_RECESS = registerBlock("cobblestone_recess", new Recess(FabricBlockSettings.of(Material.STONE).strength(3.5f, 6.0f)));
     public static final Block COBBLED_DEEPSLATE_RECESS = registerBlock("cobbled_deepslate_recess", new Recess(FabricBlockSettings.of(Material.STONE).strength(3.5f, 6.0f)));
+    public static final Block COBBLESTONE_SLABRECESS = registerBlock("cobblestone_slabrecess", new SlabRecess(FabricBlockSettings.of(Material.STONE).strength(3.5f, 6.0f)));
+    public static final Block COBBLED_DEEPSLATE_SLABRECESS = registerBlock("cobbled_deepslate_slabrecess", new SlabRecess(FabricBlockSettings.of(Material.STONE).strength(3.5f, 6.0f)));
 
 
     /// Decorate blocks
