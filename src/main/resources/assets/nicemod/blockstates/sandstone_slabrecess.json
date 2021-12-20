@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "nicemod:block/sandstone_slabrecess"
+    },
+    "facing=east": {
+      "model": "nicemod:block/sandstone_slabrecess",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "nicemod:block/sandstone_slabrecess"
+    },
+    "facing=west": {
+      "model": "nicemod:block/sandstone_slabrecess",
+      "y": 90
+    }
+  }
+}
