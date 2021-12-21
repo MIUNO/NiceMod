@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " 1 ",
+      " 1 ",
+      " 1 "
+    ],
+    "key": {
+      "1": { "item": "minecraft:cobbled_deepslate" }
+    },
+    "result": {
+      "item": "nicemod:cobbled_deepslate_column",
+      "count": 4
+    }
+  }

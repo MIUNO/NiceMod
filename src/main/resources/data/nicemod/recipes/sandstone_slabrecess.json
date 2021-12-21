@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "   ",
+      "   ",
+      "121"
+    ],
+    "key": {
+      "1": { "item": "minecraft:sandstone" },
+	  "2": { "item": "minecraft:sandstone_slab" }
+    },
+    "result": {
+      "item": "nicemod:sandstone_slabrecess",
+      "count": 4
+    }
+  }

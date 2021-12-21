@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "   ",
+      "   ",
+      "121"
+    ],
+    "key": {
+      "1": { "item": "minecraft:cobblestone" },
+	  "2": { "item": "minecraft:cobblestone_slab" }
+    },
+    "result": {
+      "item": "nicemod:cobblestone_slabrecess",
+      "count": 4
+    }
+  }

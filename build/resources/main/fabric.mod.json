@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "nicemod",
-  "version": "0.1.1",
+  "version": "0.1.2",
 
   "name": "NiceMod - New blocks",
   "description": "A mod for Fabric that adds new decorative and building blocks",
@@ -23,7 +23,7 @@
     ]
   },
   "mixins": [
-
+    "nicemod.mixins.json"
   ],
 
   "depends": {

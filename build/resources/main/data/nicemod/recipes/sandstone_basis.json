@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " 1 ",
+      " 1 ",
+      " 2 "
+    ],
+    "key": {
+      "1": { "item": "nicemod:sandstone_column" },
+	  "2": { "item": "minecraft:sandstone" }
+    },
+    "result": {
+      "item": "nicemod:sandstone_basis",
+      "count": 2
+    }
+  }

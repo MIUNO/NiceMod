@@ -23,7 +23,7 @@
     ]
   },
   "mixins": [
-
+    "nicemod.mixins.json"
   ],
 
   "depends": {
