@@ -4,7 +4,7 @@
   "version": "0.1.2",
 
   "name": "NiceMod - New blocks",
-  "description": "A mod for Fabric that adds new decorative and building blocks",
+  "description": "A mod that adds new decorative and building blocks",
   "authors": [
     "MIUNO"
   ],
@@ -12,6 +12,17 @@
     "homepage": "https://github.com/MIUNO/NiceMod",
     "sources": "https://github.com/MIUNO/NiceMod"
   },
+
+  "custom": {
+    "modmenu": {
+        "links": { "MIUNO": "https://miuno.ru/" },
+        "id": "nicemod",
+        "name": "NiceMod - New blocks",
+        "description": "A mod that adds new decorative and building blocks",
+        "icon": "assets/nicemod/icon.png",
+        "badges": []
+    }
+},
 
   "license": "MIT",
   "icon": "assets/nicemod/icon.png",
