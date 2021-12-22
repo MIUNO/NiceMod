@@ -1,16 +1,14 @@
 {
   "variants": {
     "axis=x": {
-      "model": "nicemod:block/sandstone_column",
-      "x": 90,
+      "model": "nicemod:block/sandstone_column_h",
       "y": 90
     },
     "axis=y": {
       "model": "nicemod:block/sandstone_column"
     },
     "axis=z": {
-      "model": "nicemod:block/sandstone_column",
-      "x": 90
+      "model": "nicemod:block/sandstone_column_h"
     }
   }
 }

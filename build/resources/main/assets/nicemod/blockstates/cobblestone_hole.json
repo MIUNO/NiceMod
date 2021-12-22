@@ -6,7 +6,8 @@
       },
       "axis=y": {
         "model": "nicemod:block/cobblestone_hole",
-        "x": 90
+        "x": 90,
+        "uvlock": "true"
       },
       "axis=z": {
         "model": "nicemod:block/cobblestone_hole"
