@@ -1,6 +1,5 @@
 package ru.miuno.nicemod.blocks;
 
-import net.minecraft.block.Material;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.block.AbstractBlock;
@@ -17,7 +16,7 @@ public class Hole extends Column {
     public static final BooleanProperty WATERLOGGED = Properties.WATERLOGGED;
 
     public Hole(AbstractBlock.Settings settings) {
-        super(Settings.of(Material.STONE).nonOpaque());
+        super(settings);
         this.setDefaultState((BlockState)((BlockState)((BlockState)this.stateManager.getDefaultState()).with(WATERLOGGED, false)).with(AXIS, Direction.Axis.Y));
     }
 

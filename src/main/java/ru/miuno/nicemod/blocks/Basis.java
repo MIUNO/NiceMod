@@ -3,7 +3,6 @@ package ru.miuno.nicemod.blocks;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
-import net.minecraft.block.Material;
 import net.minecraft.block.ShapeContext;
 import net.minecraft.block.Waterloggable;
 import net.minecraft.entity.ai.pathing.NavigationType;
@@ -28,7 +27,7 @@ public class Basis extends Block implements Waterloggable {
     protected static final VoxelShape HANGING_SHAPE = VoxelShapes.union(VoxelShapes.cuboid(0, 0.5, 0, 1, 1, 1), VoxelShapes.cuboid(0.125, 0, 0.125, 0.875, 0.5, 0.875));
 
     public Basis(AbstractBlock.Settings settings) {
-        super(Settings.of(Material.STONE).nonOpaque());
+        super(settings);
         this.setDefaultState((BlockState)((BlockState)((BlockState)this.stateManager.getDefaultState()).with(HANGING, false)).with(WATERLOGGED, false));
     }
 

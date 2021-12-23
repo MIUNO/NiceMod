@@ -1,0 +1,23 @@
+{
+    "replace": false,
+    "values": [
+        "nicemod:cobblestone_basis",
+        "nicemod:cobblestone_column",
+        "nicemod:cobblestone_capital",
+        "nicemod:cobblestone_hole",
+        "nicemod:cobblestone_recess",
+        "nicemod:cobblestone_slabrecess",
+        "nicemod:cobbled_deepslate_basis",
+        "nicemod:cobbled_deepslate_column",
+        "nicemod:cobbled_deepslate_capital",
+        "nicemod:cobbled_deepslate_hole",
+        "nicemod:cobbled_deepslate_recess",
+        "nicemod:cobbled_deepslate_slabrecess",
+        "nicemod:sandstone_basis",
+        "nicemod:sandstone_column",
+        "nicemod:sandstone_capital",
+        "nicemod:sandstone_hole",
+        "nicemod:sandstone_recess",
+        "nicemod:sandstone_slabrecess"
+    ]
+  }

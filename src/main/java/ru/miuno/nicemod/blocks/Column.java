@@ -1,6 +1,5 @@
 package ru.miuno.nicemod.blocks;
 
-import net.minecraft.block.Material;
 import net.minecraft.block.PillarBlock;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
@@ -27,7 +26,7 @@ public class Column extends PillarBlock implements Waterloggable {
     public static final BooleanProperty WATERLOGGED = Properties.WATERLOGGED;
 
     public Column(AbstractBlock.Settings settings) {
-        super(Settings.of(Material.STONE).nonOpaque());
+        super(settings);
         this.setDefaultState((BlockState)((BlockState)((BlockState)this.stateManager.getDefaultState()).with(WATERLOGGED, false)).with(AXIS, Direction.Axis.Y));
     }
 

@@ -2,7 +2,6 @@ package ru.miuno.nicemod.blocks;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
-import net.minecraft.block.Material;
 import net.minecraft.block.ShapeContext;
 import net.minecraft.block.Waterloggable;
 import net.minecraft.fluid.FluidState;
@@ -19,7 +18,7 @@ public class Capital extends Block implements Waterloggable {
     public static final BooleanProperty WATERLOGGED = Properties.WATERLOGGED;
 
     protected Capital(Settings settings) {
-        super(Settings.of(Material.STONE).nonOpaque());
+        super(settings);
         this.setDefaultState((BlockState)((BlockState)((BlockState)this.stateManager.getDefaultState())).with(WATERLOGGED, false));
     }
 
