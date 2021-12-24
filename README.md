@@ -5,6 +5,7 @@
 
 A small Minecraft mod for Fabric that adds new decorative blocks
 
+- Discord [click](https://discord.gg/sYRAPyP6DH).
 - Project plan [click](https://github.com/MIUNO/NiceMod/projects/1).
 - CurseForge [click](https://www.curseforge.com/minecraft/mc-mods/nicemod-new-blocks).
 - Modrinth [click](https://modrinth.com/mod/nicemod).
