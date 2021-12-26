@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "nicemod:block/crate2"
+    },
+    "facing=east": {
+      "model": "nicemod:block/crate2",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "nicemod:block/crate2"
+    },
+    "facing=west": {
+      "model": "nicemod:block/crate2",
+      "y": 90
+    }
+  }
+}
