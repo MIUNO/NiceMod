@@ -1,15 +1,8 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-      " 1 ",
-      "1 1",
-      " 1 "
-    ],
-    "key": {
-      "1": { "item": "minecraft:cobblestone_slab" }
-    },
-    "result": {
-      "item": "nicemod:cobblestone_hole",
-      "count": 2
-    }
-  }
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+      "item": "minecraft:cobblestone"
+  },
+  "result": "nicemod:cobblestone_hole",
+  "count": 1
+}

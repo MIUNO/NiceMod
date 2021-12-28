@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "   ",
+      " 11",
+      "111"
+    ],
+    "key": {
+	  "1": { "item": "minecraft:oak_slab" }
+    },
+    "result": {
+      "item": "nicemod:crate3",
+      "count": 1
+    }
+  }

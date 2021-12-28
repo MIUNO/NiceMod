@@ -1,16 +1,8 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-      " 1 ",
-      " 1 ",
-      " 2 "
-    ],
-    "key": {
-      "1": { "item": "nicemod:cobbled_deepslate_column" },
-	  "2": { "item": "minecraft:cobbled_deepslate" }
-    },
-    "result": {
-      "item": "nicemod:cobbled_deepslate_basis",
-      "count": 2
-    }
-  }
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+      "item": "minecraft:cobbled_deepslate"
+  },
+  "result": "nicemod:cobbled_deepslate_basis",
+  "count": 1
+}

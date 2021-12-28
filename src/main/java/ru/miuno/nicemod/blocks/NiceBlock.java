@@ -18,21 +18,30 @@ public class NiceBlock {
     public static final Block COBBLESTONE_CAPITAL = registerBlock("cobblestone_capital", new Capital(FabricBlockSettings.copy(Blocks.COBBLESTONE)));
     public static final Block COBBLESTONE_HOLE = registerBlock("cobblestone_hole", new Hole(FabricBlockSettings.copy(Blocks.COBBLESTONE)));
     public static final Block COBBLESTONE_RECESS = registerBlock("cobblestone_recess", new Recess(FabricBlockSettings.copy(Blocks.COBBLESTONE)));
+    public static final Block COBBLESTONE_RECESS_A = registerBlock("cobblestone_recess_a", new Recess_a(FabricBlockSettings.copy(Blocks.COBBLESTONE)));
+    public static final Block COBBLESTONE_SLABHOLE = registerBlock("cobblestone_slabhole", new SlabHole(FabricBlockSettings.copy(Blocks.COBBLESTONE)));
     public static final Block COBBLESTONE_SLABRECESS = registerBlock("cobblestone_slabrecess", new SlabRecess(FabricBlockSettings.copy(Blocks.COBBLESTONE)));
+    public static final Block COBBLESTONE_SLABRECESS_A = registerBlock("cobblestone_slabrecess_a", new SlabRecess_a(FabricBlockSettings.copy(Blocks.COBBLESTONE)));
 
     public static final Block COBBLED_DEEPSLATE_BASIS = registerBlock("cobbled_deepslate_basis", new Basis(FabricBlockSettings.copy(Blocks.DEEPSLATE)));
     public static final Block COBBLED_DEEPSLATE_COLUMN = registerBlock("cobbled_deepslate_column", new Column(FabricBlockSettings.copy(Blocks.DEEPSLATE)));
     public static final Block COBBLED_DEEPSLATE_CAPITAL = registerBlock("cobbled_deepslate_capital", new Capital(FabricBlockSettings.copy(Blocks.DEEPSLATE)));
     public static final Block COBBLED_DEEPSLATE_HOLE = registerBlock("cobbled_deepslate_hole", new Hole(FabricBlockSettings.copy(Blocks.DEEPSLATE)));
     public static final Block COBBLED_DEEPSLATE_RECESS = registerBlock("cobbled_deepslate_recess", new Recess(FabricBlockSettings.copy(Blocks.DEEPSLATE)));
+    public static final Block COBBLED_DEEPSLATE_RECESS_A = registerBlock("cobbled_deepslate_recess_a", new Recess_a(FabricBlockSettings.copy(Blocks.DEEPSLATE)));
+    public static final Block COBBLED_DEEPSLATE_SLABHOLE = registerBlock("cobbled_deepslate_slabhole", new SlabHole(FabricBlockSettings.copy(Blocks.DEEPSLATE)));
     public static final Block COBBLED_DEEPSLATE_SLABRECESS = registerBlock("cobbled_deepslate_slabrecess", new SlabRecess(FabricBlockSettings.copy(Blocks.DEEPSLATE)));
+    public static final Block COBBLED_DEEPSLATE_SLABRECESS_A = registerBlock("cobbled_deepslate_slabrecess_a", new SlabRecess_a(FabricBlockSettings.copy(Blocks.DEEPSLATE)));
 
     public static final Block SANDSTONE_BASIS = registerBlock("sandstone_basis", new Basis(FabricBlockSettings.copy(Blocks.SANDSTONE)));
     public static final Block SANDSTONE_COLUMN = registerBlock("sandstone_column", new Column(FabricBlockSettings.copy(Blocks.SANDSTONE)));
     public static final Block SANDSTONE_CAPITAL = registerBlock("sandstone_capital", new Capital(FabricBlockSettings.copy(Blocks.SANDSTONE)));
     public static final Block SANDSTONE_HOLE = registerBlock("sandstone_hole", new Hole(FabricBlockSettings.copy(Blocks.SANDSTONE)));
     public static final Block SANDSTONE_RECESS = registerBlock("sandstone_recess", new Recess(FabricBlockSettings.copy(Blocks.SANDSTONE)));
+    public static final Block SANDSTONE_RECESS_A = registerBlock("sandstone_recess_a", new Recess_a(FabricBlockSettings.copy(Blocks.SANDSTONE)));
+    public static final Block SANDSTONE_SLABHOLE = registerBlock("sandstone_slabhole", new SlabHole(FabricBlockSettings.copy(Blocks.SANDSTONE)));
     public static final Block SANDSTONE_SLABRECESS = registerBlock("sandstone_slabrecess", new SlabRecess(FabricBlockSettings.copy(Blocks.SANDSTONE)));
+    public static final Block SANDSTONE_SLABRECESS_A = registerBlock("sandstone_slabrecess_a", new SlabRecess_a(FabricBlockSettings.copy(Blocks.SANDSTONE)));
 
     /// Decorate blocks
     public static final Block BRIDGE = registerBlock("bridge", new Bridge(FabricBlockSettings.copy(Blocks.OAK_LOG)));

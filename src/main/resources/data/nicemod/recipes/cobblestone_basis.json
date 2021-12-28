@@ -1,16 +1,8 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-      " 1 ",
-      " 1 ",
-      " 2 "
-    ],
-    "key": {
-      "1": { "item": "nicemod:cobblestone_column" },
-	  "2": { "item": "minecraft:cobblestone" }
-    },
-    "result": {
-      "item": "nicemod:cobblestone_basis",
-      "count": 2
-    }
-  }
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+      "item": "minecraft:cobblestone"
+  },
+  "result": "nicemod:cobblestone_basis",
+  "count": 1
+}

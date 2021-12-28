@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+      "item": "minecraft:sandstone"
+  },
+  "result": "nicemod:sandstone_slabrecess_a",
+  "count": 2
+}

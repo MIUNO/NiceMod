@@ -1,15 +1,8 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-      " 1 ",
-      "1 1",
-      " 1 "
-    ],
-    "key": {
-      "1": { "item": "minecraft:sandstone_slab" }
-    },
-    "result": {
-      "item": "nicemod:sandstone_hole",
-      "count": 2
-    }
-  }
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+      "item": "minecraft:sandstone"
+  },
+  "result": "nicemod:sandstone_hole",
+  "count": 1
+}

@@ -49,11 +49,11 @@ public class Recess extends HorizontalFacingBlock implements Waterloggable {
 		}
 	}
 
-    @Override
 	public BlockState getPlacementState(ItemPlacementContext ctx) {
-		return (BlockState)this.getDefaultState().with(Properties.HORIZONTAL_FACING, ctx.getPlayerFacing().getOpposite());
-	}
-
+        FluidState fluidState = ctx.getWorld().getFluidState(ctx.getBlockPos());
+        boolean bl = fluidState.getFluid() == Fluids.WATER;
+        return (BlockState)((BlockState)this.getDefaultState().with(Properties.HORIZONTAL_FACING, ctx.getPlayerFacing().getOpposite())).with(WATERLOGGED, bl);
+     }
     @Override
     public FluidState getFluidState(BlockState state) {
         if (state.get(WATERLOGGED).booleanValue()) {

@@ -31,6 +31,9 @@
   "entrypoints": {
     "main": [
       "ru.miuno.nicemod.NiceMod"
+    ],
+    "client": [
+      "ru.miuno.nicemod.NiceClient"
     ]
   },
   "mixins": [

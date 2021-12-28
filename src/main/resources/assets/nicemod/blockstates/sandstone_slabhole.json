@@ -1,0 +1,25 @@
+{
+  "variants": {
+	  "facing=up": {
+      "model": "nicemod:block/sandstone_slabhole_up"
+    },
+	  "facing=down": {
+      "model": "nicemod:block/sandstone_slabhole_down"
+    },
+    "facing=north": {
+      "model": "nicemod:block/sandstone_slabhole"
+    },
+    "facing=east": {
+      "model": "nicemod:block/sandstone_slabhole",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "nicemod:block/sandstone_slabhole",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "nicemod:block/sandstone_slabhole",
+      "y": 270
+    }
+  }
+}

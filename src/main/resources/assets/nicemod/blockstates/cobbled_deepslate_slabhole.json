@@ -1,0 +1,29 @@
+{
+  "variants": {
+	  "facing=up": {
+      "model": "nicemod:block/cobbled_deepslate_slabhole",
+      "x": 270,
+      "uvlock": "true"
+    },
+	  "facing=down": {
+      "model": "nicemod:block/cobbled_deepslate_slabhole",
+      "x": 90,
+      "uvlock": "true"
+    },
+    "facing=north": {
+      "model": "nicemod:block/cobbled_deepslate_slabhole"
+    },
+    "facing=east": {
+      "model": "nicemod:block/cobbled_deepslate_slabhole",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "nicemod:block/cobbled_deepslate_slabhole",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "nicemod:block/cobbled_deepslate_slabhole",
+      "y": 270
+    }
+  }
+}

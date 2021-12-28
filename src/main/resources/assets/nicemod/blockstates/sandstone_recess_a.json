@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "nicemod:block/sandstone_recess_a"
+    },
+    "facing=east": {
+      "model": "nicemod:block/sandstone_recess_a",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "nicemod:block/sandstone_recess_a",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "nicemod:block/sandstone_recess_a",
+      "y": 270
+    }
+  }
+}

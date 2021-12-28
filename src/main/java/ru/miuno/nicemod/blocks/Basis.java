@@ -17,7 +17,6 @@ import net.minecraft.util.math.Direction;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
-import net.minecraft.world.WorldAccess;
 import org.jetbrains.annotations.Nullable;
 
 public class Basis extends Block implements Waterloggable {
@@ -57,14 +56,6 @@ public class Basis extends Block implements Waterloggable {
         return state.get(HANGING) != false ? Direction.DOWN : Direction.UP;
     }
 
-
-    @Override
-    public BlockState getStateForNeighborUpdate(BlockState state, Direction direction, BlockState neighborState, WorldAccess world, BlockPos pos, BlockPos neighborPos) {
-        if (state.get(WATERLOGGED).booleanValue()) {
-            world.createAndScheduleFluidTick(pos, Fluids.WATER, Fluids.WATER.getTickRate(world));
-        }
-        return state;
-    }
 
     @Override
     public FluidState getFluidState(BlockState state) {

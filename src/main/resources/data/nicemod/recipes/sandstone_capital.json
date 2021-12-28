@@ -1,16 +1,8 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-      " 2 ",
-      " 1 ",
-      " 2 "
-    ],
-    "key": {
-      "1": { "item": "nicemod:sandstone_column" },
-	  "2": { "item": "minecraft:sandstone_slab" }
-    },
-    "result": {
-      "item": "nicemod:sandstone_capital",
-      "count": 2
-    }
-  }
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+      "item": "minecraft:sandstone"
+  },
+  "result": "nicemod:sandstone_capital",
+  "count": 1
+}

@@ -1,0 +1,26 @@
+{
+  "variants": {
+	"facing=up": {
+      "model": "nicemod:block/weathercock"
+    },
+	"facing=down": {
+      "model": "nicemod:block/weathercock",
+      "x": 180
+    },
+    "facing=north": {
+      "model": "nicemod:block/weathercock_a"
+    },
+    "facing=east": {
+      "model": "nicemod:block/weathercock_a",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "nicemod:block/weathercock_a",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "nicemod:block/weathercock_a",
+      "y": 270
+    }
+  }
+}
