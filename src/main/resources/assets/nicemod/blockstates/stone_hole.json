@@ -1,0 +1,16 @@
+{
+    "variants": {
+      "axis=x": {
+        "model": "nicemod:block/stone_hole",
+        "y": 90
+      },
+      "axis=y": {
+        "model": "nicemod:block/stone_hole",
+        "x": 90,
+        "uvlock": "true"
+      },
+      "axis=z": {
+        "model": "nicemod:block/stone_hole"
+      }
+    }
+  }

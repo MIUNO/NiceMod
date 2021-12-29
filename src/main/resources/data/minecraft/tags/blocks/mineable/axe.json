@@ -3,6 +3,10 @@
     "values": [
         "nicemod:bridge",
         "nicemod:cannon",
-        "nicemod:mortirer"
+        "nicemod:mortirer",
+		"nicemod:crate1",
+		"nicemod:crate1_a",
+		"nicemod:crate2",
+		"nicemod:crate3"
     ]
   }

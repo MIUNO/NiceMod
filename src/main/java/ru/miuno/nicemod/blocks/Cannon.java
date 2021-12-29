@@ -1,10 +1,10 @@
 package ru.miuno.nicemod.blocks;
 
-import net.minecraft.block.Material;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
+import net.minecraft.block.Blocks;
 import net.minecraft.block.HorizontalFacingBlock;
 import net.minecraft.block.ShapeContext;
 import net.minecraft.item.ItemPlacementContext;
@@ -18,7 +18,7 @@ import net.minecraft.world.BlockView;
 public class Cannon extends HorizontalFacingBlock {
 
     protected Cannon(Settings settings) {
-        super(Settings.of(Material.WOOD).nonOpaque());
+        super(Settings.copy(Blocks.OAK_PLANKS).nonOpaque());
         setDefaultState(this.stateManager.getDefaultState().with(Properties.HORIZONTAL_FACING, Direction.NORTH));
     }
     

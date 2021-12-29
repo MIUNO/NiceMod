@@ -10,7 +10,8 @@
   ],
   "contact": {
     "homepage": "https://github.com/MIUNO/NiceMod",
-    "sources": "https://github.com/MIUNO/NiceMod"
+    "sources": "https://github.com/MIUNO/NiceMod",
+    "issues": "https://github.com/MIUNO/NiceMod/issues"
   },
 
   "custom": {
