@@ -1,4 +1,4 @@
-package ru.miuno.nicemod.blocks;
+package ru.miuno.nicemod.blocks.block;
 
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
@@ -21,7 +21,7 @@ import net.minecraft.world.BlockView;
 public class Recess extends HorizontalFacingBlock implements Waterloggable {
 	public static final BooleanProperty WATERLOGGED = Properties.WATERLOGGED;
 
-    protected Recess(Settings settings) {
+    public Recess(Settings settings) {
         super(settings);
         this.setDefaultState(this.stateManager.getDefaultState().with(Properties.HORIZONTAL_FACING, Direction.NORTH).with(WATERLOGGED, false));
     }

@@ -1,4 +1,4 @@
-package ru.miuno.nicemod.blocks;
+package ru.miuno.nicemod.blocks.block;
 
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
@@ -11,7 +11,7 @@ import net.minecraft.world.BlockView;
 
 public class Recess_a extends Recess {
 
-	protected Recess_a(Settings settings) {
+	public Recess_a(Settings settings) {
 		super(settings);
 	}
 

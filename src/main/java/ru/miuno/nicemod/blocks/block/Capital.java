@@ -1,4 +1,4 @@
-package ru.miuno.nicemod.blocks;
+package ru.miuno.nicemod.blocks.block;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -18,7 +18,7 @@ import net.minecraft.world.BlockView;
 public class Capital extends Block implements Waterloggable {
     public static final BooleanProperty WATERLOGGED = Properties.WATERLOGGED;
 
-    protected Capital(Settings settings) {
+    public Capital(Settings settings) {
         super(settings);
         this.setDefaultState((BlockState)((BlockState)((BlockState)this.stateManager.getDefaultState())).with(WATERLOGGED, false));
     }

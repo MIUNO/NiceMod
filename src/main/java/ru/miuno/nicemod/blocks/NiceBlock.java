@@ -9,6 +9,8 @@ import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import ru.miuno.nicemod.NiceMod;
+import ru.miuno.nicemod.blocks.block.*;
+import ru.miuno.nicemod.blocks.decoration.*;
 import ru.miuno.nicemod.itemgroup.NiceItemGroup;
 
 public class NiceBlock {
@@ -61,6 +63,7 @@ public class NiceBlock {
     public static final Block CRATE4 = registerBlock("crate1_a", new Crate(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block CRATE2 = registerBlock("crate2", new Crate(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block CRATE3 = registerBlock("crate3", new Crate(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+    public static final Block OAK_SUPPORT = registerBlock("oak_support", new Support(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
 
     //  Register
     private static Block registerBlock(String name, Block block){

@@ -1,4 +1,4 @@
-package ru.miuno.nicemod.blocks;
+package ru.miuno.nicemod.blocks.block;
 
 import net.minecraft.block.*;
 import net.minecraft.fluid.FluidState;
@@ -16,7 +16,7 @@ import net.minecraft.world.BlockView;
 public class SlabHole extends RodBlock implements Waterloggable {
     public static final BooleanProperty WATERLOGGED = Properties.WATERLOGGED;
 
-	protected SlabHole(Settings settings) {
+	public SlabHole(Settings settings) {
 		super(settings);
         this.setDefaultState((BlockState)((BlockState)((BlockState)this.stateManager.getDefaultState()).with(FACING, Direction.UP)).with(WATERLOGGED, false));
 	}

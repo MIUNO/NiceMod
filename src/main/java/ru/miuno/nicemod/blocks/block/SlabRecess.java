@@ -1,4 +1,4 @@
-package ru.miuno.nicemod.blocks;
+package ru.miuno.nicemod.blocks.block;
 
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
@@ -11,7 +11,7 @@ import net.minecraft.world.BlockView;
 
 public class SlabRecess extends Recess {
 
-	protected SlabRecess(Settings settings) {
+	public SlabRecess(Settings settings) {
 		super(settings);
 	}
 

@@ -1,4 +1,4 @@
-package ru.miuno.nicemod.blocks;
+package ru.miuno.nicemod.blocks.decoration;
 
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
@@ -11,7 +11,7 @@ import net.minecraft.world.BlockView;
 
 public class Crate extends Cannon {
 
-    protected Crate(Settings settings) {
+    public Crate(Settings settings) {
         super(settings);
     }
 

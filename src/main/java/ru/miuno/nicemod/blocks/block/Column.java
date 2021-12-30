@@ -1,4 +1,4 @@
-package ru.miuno.nicemod.blocks;
+package ru.miuno.nicemod.blocks.block;
 
 import net.minecraft.block.PillarBlock;
 import net.minecraft.util.shape.VoxelShape;

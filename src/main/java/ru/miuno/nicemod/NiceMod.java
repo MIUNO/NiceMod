@@ -9,7 +9,7 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import ru.miuno.nicemod.blocks.NiceBlock;
-import ru.miuno.nicemod.blocks.Weathercock;
+import ru.miuno.nicemod.blocks.decoration.Weathercock;
 import ru.miuno.nicemod.itemgroup.NiceItemGroup;
 
 import org.apache.logging.log4j.LogManager;

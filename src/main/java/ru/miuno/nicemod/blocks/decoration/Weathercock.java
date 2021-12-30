@@ -1,4 +1,4 @@
-package ru.miuno.nicemod.blocks;
+package ru.miuno.nicemod.blocks.decoration;
 
 import net.minecraft.block.*;
 import net.minecraft.util.math.BlockPos;
