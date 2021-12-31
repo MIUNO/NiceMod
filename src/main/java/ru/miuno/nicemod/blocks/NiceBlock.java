@@ -64,6 +64,7 @@ public class NiceBlock {
     public static final Block CRATE2 = registerBlock("crate2", new Crate(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block CRATE3 = registerBlock("crate3", new Crate(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block OAK_SUPPORT = registerBlock("oak_support", new Support(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+    public static final Block SMALL_OAK_SUPPORT = registerBlock("small_oak_support", new SmallSupport(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
 
     //  Register
     private static Block registerBlock(String name, Block block){
