@@ -65,9 +65,18 @@ public class NiceBlock {
     public static final Block CRATE3 = registerBlock("crate3", new Crate(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block OAK_SUPPORT = registerBlock("oak_support", new Support(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block SMALL_OAK_SUPPORT = registerBlock("small_oak_support", new SmallSupport(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+    public static final Block WALLLANTERN = registerBlock2("wall_lantern", new WallLantern(FabricBlockSettings.copy(Blocks.LANTERN)));
+    public static final Block WALLLANTERNA = registerBlock("wall_lantern_a", new WallLanternA(FabricBlockSettings.copy(Blocks.LANTERN)));
+    public static final Block POST = registerBlock2("post", new Post(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+    public static final Block WEATHERCOCK = registerBlock2("weathercock", new WallLantern(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+    
 
     //  Register
     private static Block registerBlock(String name, Block block){
+        registerBlockItem(name, block);
+        return Registry.register(Registry.BLOCK, new Identifier(NiceMod.MOD_ID, name), block);
+    }
+    private static Block registerBlock2(String name, Block block){
         registerBlockItem(name, block);
         return Registry.register(Registry.BLOCK, new Identifier(NiceMod.MOD_ID, name), block);
     }
