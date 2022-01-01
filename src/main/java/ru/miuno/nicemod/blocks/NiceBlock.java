@@ -11,6 +11,7 @@ import net.minecraft.util.registry.Registry;
 import ru.miuno.nicemod.NiceMod;
 import ru.miuno.nicemod.blocks.block.*;
 import ru.miuno.nicemod.blocks.decoration.*;
+import ru.miuno.nicemod.blocks.worker.Gate;
 import ru.miuno.nicemod.itemgroup.NiceItemGroup;
 
 public class NiceBlock {
@@ -71,6 +72,8 @@ public class NiceBlock {
     public static final Block POST = registerBlock2("post", new Post(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block WEATHERCOCK = registerBlock2("weathercock", new Weathercock(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     
+// Worcker blocks
+    public static final Block COBBLESTONE_GATE = registerBlock("cobblestone_gate", new Gate(FabricBlockSettings.copy(Blocks.COBBLESTONE)));
 
     //  Register
     private static Block registerBlock(String name, Block block){

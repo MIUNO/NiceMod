@@ -49,5 +49,6 @@
     "block.nicemod.wall_lantern": "Wall lantern",
     "block.nicemod.wall_lantern_a": "Wall lantern A",
     "block.nicemod.post": "Post",
-    "block.nicemod.weathercock": "Weathercock"
+    "block.nicemod.weathercock": "Weathercock",
+    "block.nicemod.cobblestone_gate": "Cobblestone gate"
 }

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "111",
+      "323",
+      "111"
+    ],
+    "key": {
+	  "1": { "item": "minecraft:cobblestone" },
+	  "2": { "item": "minecraft:redstone" },
+	  "3": { "item": "minecraft:oak_planks" }
+    },
+    "result": {
+      "item": "nicemod:cobblestone_gate",
+      "count": 2
+    }
+  }

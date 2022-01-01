@@ -37,6 +37,7 @@
 		"nicemod:sandstone_slabhole",
 		"nicemod:sandstone_slabrecess",
 		"nicemod:sandstone_slabrecess_a",
-		"nicemod:weathercock"
+		"nicemod:weathercock",
+		cobblestone_gate
     ]
   }
