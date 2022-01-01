@@ -69,7 +69,7 @@ public class NiceBlock {
     public static final Block WALLLANTERN = registerBlock2("wall_lantern", new WallLantern(FabricBlockSettings.copy(Blocks.LANTERN)));
     public static final Block WALLLANTERNA = registerBlock("wall_lantern_a", new WallLanternA(FabricBlockSettings.copy(Blocks.LANTERN)));
     public static final Block POST = registerBlock2("post", new Post(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
-    public static final Block WEATHERCOCK = registerBlock2("weathercock", new WallLantern(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+    public static final Block WEATHERCOCK = registerBlock2("weathercock", new Weathercock(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     
 
     //  Register
