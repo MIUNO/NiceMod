@@ -7,6 +7,11 @@
 		"nicemod:crate1",
 		"nicemod:crate1_a",
 		"nicemod:crate2",
-		"nicemod:crate3"
+		"nicemod:crate3",
+		"nicemod:oak_support",
+		"nicemod:small_oak_support",
+		"nicemod:wall_lantern",
+		"nicemod:wall_lantern_a",
+		"nicemod:post"
     ]
   }

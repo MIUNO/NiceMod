@@ -44,5 +44,10 @@
     "block.nicemod.crate1_a": "Crate A2",
     "block.nicemod.crate2": "Crate B",
     "block.nicemod.crate3": "Crate C",
+    "block.nicemod.oak_support": "Oak support",
+    "block.nicemod.small_oak_support": "Small oak support",
+    "block.nicemod.wall_lantern": "Wall lantern",
+    "block.nicemod.wall_lantern_a": "Wall lantern A",
+    "block.nicemod.post": "Post",
     "block.nicemod.weathercock": "Weathercock"
 }

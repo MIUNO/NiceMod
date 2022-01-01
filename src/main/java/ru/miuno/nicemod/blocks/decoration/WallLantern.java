@@ -30,13 +30,13 @@ public class WallLantern extends HorizontalFacingBlock {
 		Direction dir = state.get(FACING);
 		switch(dir) {
 			case NORTH:
-				return VoxelShapes.union(VoxelShapes.cuboid(0.25, 0, 0, 0.75, 1, 1));
+				return VoxelShapes.union(VoxelShapes.cuboid(0.3, 0, 0, 0.7, 1, 1));
 			case SOUTH:
-				return VoxelShapes.union(VoxelShapes.cuboid(0.25, 0, 0, 0.75, 1, 1));
+				return VoxelShapes.union(VoxelShapes.cuboid(0.3, 0, 0, 0.7, 1, 1));
 			case EAST:
-				return VoxelShapes.union(VoxelShapes.cuboid(0, 0, 0.25, 1, 1, 0.75));
+				return VoxelShapes.union(VoxelShapes.cuboid(0, 0, 0.3, 1, 1, 0.7));
 			case WEST:
-				return VoxelShapes.union(VoxelShapes.cuboid(0, 0, 0.25, 1, 1, 0.75));
+				return VoxelShapes.union(VoxelShapes.cuboid(0, 0, 0.3, 1, 1, 0.7));
 			default:
 				return VoxelShapes.fullCube();
 		}

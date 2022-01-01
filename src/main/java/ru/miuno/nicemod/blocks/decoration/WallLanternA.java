@@ -18,13 +18,13 @@ public class WallLanternA extends WallLantern {
 		Direction dir = state.get(FACING);
 		switch(dir) {
 			case NORTH:
-				return VoxelShapes.union(VoxelShapes.cuboid(-0.5, 0, 0.25, 1.5, 1, 0.75));
+				return VoxelShapes.union(VoxelShapes.cuboid(-0.5, 0, 0.3, 1.5, 1, 0.7));
 			case SOUTH:
-				return VoxelShapes.union(VoxelShapes.cuboid(-0.5, 0, 0.25, 1.5, 1, 0.75));
+				return VoxelShapes.union(VoxelShapes.cuboid(-0.5, 0, 0.3, 1.5, 1, 0.7));
 			case EAST:
-				return VoxelShapes.union(VoxelShapes.cuboid(0.25, 0, -0.5, 0.75, 1, 1.5));
+				return VoxelShapes.union(VoxelShapes.cuboid(0.3, 0, -0.5, 0.7, 1, 1.5));
 			case WEST:
-				return VoxelShapes.union(VoxelShapes.cuboid(0.25, 0, -0.5, 0.75, 1, 1.5));
+				return VoxelShapes.union(VoxelShapes.cuboid(0.3, 0, -0.5, 0.7, 1, 1.5));
 			default:
 				return VoxelShapes.fullCube();
 		}

@@ -44,5 +44,10 @@
     "block.nicemod.crate1_a": "Ящик А2",
     "block.nicemod.crate2": "Ящик Б",
     "block.nicemod.crate3": "Ящик В",
+    "block.nicemod.oak_support": "Дубовая поддержка",
+    "block.nicemod.small_oak_support": "Маленькая дубовая поддержка",
+    "block.nicemod.wall_lantern": "Настенная лампа",
+    "block.nicemod.wall_lantern_a": "Настенная лампа А",
+    "block.nicemod.post": "Столб",
     "block.nicemod.weathercock": "Флюгер"
 }
