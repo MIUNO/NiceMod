@@ -18,13 +18,13 @@ public class Support extends Cannon {
 		Direction dir = state.get(FACING);
 		switch(dir) {
 			case NORTH:
-				return VoxelShapes.union(VoxelShapes.cuboid(0.3, 0, 0.75, 0.7, 0.75, 1), VoxelShapes.cuboid(0.3, 0.75, 0, 0.7, 1, 1));
+				return VoxelShapes.union(VoxelShapes.cuboid(0.3, 0, 0.875, 0.7, 0.875, 1), VoxelShapes.cuboid(0.3, 0.875, 0, 0.7, 1, 1));
 			case SOUTH:
-				return VoxelShapes.union(VoxelShapes.cuboid(0.3, 0, 0, 0.7, 0.75, 0.25), VoxelShapes.cuboid(0.3, 0.75, 0, 0.7, 1, 1));
+				return VoxelShapes.union(VoxelShapes.cuboid(0.3, 0, 0, 0.7, 0.875, 0.125), VoxelShapes.cuboid(0.3, 0.875, 0, 0.7, 1, 1));
 			case EAST:
-				return VoxelShapes.union(VoxelShapes.cuboid(0, 0, 0.3, 0.25, 0.75, 0.7), VoxelShapes.cuboid(0, 0.75, 0.3, 1, 1, 0.7));
+				return VoxelShapes.union(VoxelShapes.cuboid(0, 0, 0.3, 0.125, 0.875, 0.7), VoxelShapes.cuboid(0, 0.875, 0.3, 1, 1, 0.7));
 			case WEST:
-				return VoxelShapes.union(VoxelShapes.cuboid(0.75, 0, 0.3, 1, 0.75, 0.7), VoxelShapes.cuboid(0, 0.75, 0.3, 1, 1, 0.7));
+				return VoxelShapes.union(VoxelShapes.cuboid(0.875, 0, 0.3, 1, 0.875, 0.7), VoxelShapes.cuboid(0, 0.875, 0.3, 1, 1, 0.7));
 			default:
 				return VoxelShapes.fullCube();
 		}

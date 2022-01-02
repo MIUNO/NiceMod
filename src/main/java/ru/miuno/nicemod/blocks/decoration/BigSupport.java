@@ -8,8 +8,8 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.world.BlockView;
 
-public class SmallSupport extends Cannon {
-    public SmallSupport(Settings settings) {
+public class BigSupport extends Cannon {
+    public BigSupport(Settings settings) {
         super(settings);
     }
 
@@ -18,13 +18,13 @@ public class SmallSupport extends Cannon {
 		Direction dir = state.get(FACING);
 		switch(dir) {
 			case NORTH:
-				return VoxelShapes.union(VoxelShapes.cuboid(0.15, 0.25, 0.875, 0.85, 0.875, 1), VoxelShapes.cuboid(0.15, 0.875, 0.25, 0.85, 1, 1));
+				return VoxelShapes.union(VoxelShapes.cuboid(0.3, 0, 0.875, 0.7, 0.875, 1), VoxelShapes.cuboid(0, 0.875, 0, 1, 1, 1));
 			case SOUTH:
-				return VoxelShapes.union(VoxelShapes.cuboid(0.15, 0.25, 0, 0.85, 0.875, 0.125), VoxelShapes.cuboid(0.15, 0.875, 0, 0.85, 1, 0.75));
+				return VoxelShapes.union(VoxelShapes.cuboid(0.3, 0, 0, 0.7, 0.875, 0.125), VoxelShapes.cuboid(0, 0.875, 0, 1, 1, 1));
 			case EAST:
-				return VoxelShapes.union(VoxelShapes.cuboid(0, 0.25, 0.15, 0.125, 0.875, 0.85), VoxelShapes.cuboid(0, 0.875, 0.15, 0.75, 1, 0.85));
+				return VoxelShapes.union(VoxelShapes.cuboid(0, 0, 0.3, 0.125, 0.875, 0.7), VoxelShapes.cuboid(0, 0.875, 0, 1, 1, 1));
 			case WEST:
-				return VoxelShapes.union(VoxelShapes.cuboid(0.875, 0.25, 0.15, 1, 0.875, 0.85), VoxelShapes.cuboid(0.25, 0.875, 0.15, 1, 1, 0.85));
+				return VoxelShapes.union(VoxelShapes.cuboid(0.875, 0, 0.3, 1, 0.875, 0.7), VoxelShapes.cuboid(0, 0.875, 0, 1, 1, 1));
 			default:
 				return VoxelShapes.fullCube();
 		}
