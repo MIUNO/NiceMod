@@ -44,7 +44,7 @@ public class Window extends HorizontalFacingBlock{
 		}
 	}
  
-        @Override
+    @Override
 	public BlockState getPlacementState(ItemPlacementContext ctx) {
 		return (BlockState)this.getDefaultState().with(Properties.HORIZONTAL_FACING, ctx.getPlayerFacing().getOpposite());
 	}

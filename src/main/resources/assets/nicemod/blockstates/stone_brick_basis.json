@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "nicemod:block/stone_brick_basis"
+    },
+    "hanging=true": {
+      "model": "nicemod:block/stone_brick_basis",
+      "x": 180,
+      "uvlock": "true"
+    }
+  }
+}

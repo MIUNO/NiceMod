@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "nicemod:block/stone_brick_column",
+      "x": 90,
+      "y": 90,
+      "uvlock": "true"
+    },
+    "axis=y": {
+      "model": "nicemod:block/stone_brick_column"
+    },
+    "axis=z": {
+      "model": "nicemod:block/stone_brick_column",
+      "x": 90,
+      "uvlock": "true"
+    }
+  }
+}

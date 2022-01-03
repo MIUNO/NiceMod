@@ -46,6 +46,16 @@ public class NiceBlock {
     public static final Block STONE_SLABHOLE = registerBlock("stone_slabhole", new SlabHole(FabricBlockSettings.copy(Blocks.STONE)));
     public static final Block STONE_SLABRECESS = registerBlock("stone_slabrecess", new SlabRecess(FabricBlockSettings.copy(Blocks.STONE)));
     public static final Block STONE_SLABRECESS_A = registerBlock("stone_slabrecess_a", new SlabRecess_a(FabricBlockSettings.copy(Blocks.STONE)));
+    // Stone Bricks
+    public static final Block STONE_BRICK_BASIS = registerBlock("stone_brick_basis", new Basis(FabricBlockSettings.copy(Blocks.STONE_BRICKS)));
+    public static final Block STONE_BRICK_COLUMN = registerBlock("stone_brick_column", new Column(FabricBlockSettings.copy(Blocks.STONE_BRICKS)));
+    public static final Block STONE_BRICK_CAPITAL = registerBlock("stone_brick_capital", new Capital(FabricBlockSettings.copy(Blocks.STONE_BRICKS)));
+    public static final Block STONE_BRICK_HOLE = registerBlock("stone_brick_hole", new Hole(FabricBlockSettings.copy(Blocks.STONE_BRICKS)));
+    public static final Block STONE_BRICK_RECESS = registerBlock("stone_brick_recess", new Recess(FabricBlockSettings.copy(Blocks.STONE_BRICKS)));
+    public static final Block STONE_BRICK_RECESS_A = registerBlock("stone_brick_recess_a", new Recess_a(FabricBlockSettings.copy(Blocks.STONE_BRICKS)));
+    public static final Block STONE_BRICK_SLABHOLE = registerBlock("stone_brick_slabhole", new SlabHole(FabricBlockSettings.copy(Blocks.STONE_BRICKS)));
+    public static final Block STONE_BRICK_SLABRECESS = registerBlock("stone_brick_slabrecess", new SlabRecess(FabricBlockSettings.copy(Blocks.STONE_BRICKS)));
+    public static final Block STONE_BRICK_SLABRECESS_A = registerBlock("stone_brick_slabrecess_a", new SlabRecess_a(FabricBlockSettings.copy(Blocks.STONE_BRICKS)));
     // Sandstone
     public static final Block SANDSTONE_BASIS = registerBlock("sandstone_basis", new Basis(FabricBlockSettings.copy(Blocks.SANDSTONE)));
     public static final Block SANDSTONE_COLUMN = registerBlock("sandstone_column", new Column(FabricBlockSettings.copy(Blocks.SANDSTONE)));

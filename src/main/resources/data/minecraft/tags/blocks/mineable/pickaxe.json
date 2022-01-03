@@ -19,7 +19,16 @@
 		"nicemod:cobbled_deepslate_slabhole",
 		"nicemod:cobbled_deepslate_slabrecess",
 		"nicemod:cobbled_deepslate_slabrecess_a",
-        "nicemod:stone_basis",
+        "nicemod:stone_brick_basis",
+        "nicemod:stone_brick_column",
+        "nicemod:stone_brick_capital",
+        "nicemod:stone_brick_hole",
+        "nicemod:stone_brick_recess",
+        "nicemod:stone_brick_recess_a",
+		"nicemod:stone_brick_slabhole",
+		"nicemod:stone_brick_slabrecess",
+		"nicemod:stone_brick_slabrecess_a",
+		"nicemod:stone_basis",
         "nicemod:stone_column",
         "nicemod:stone_capital",
         "nicemod:stone_hole",
@@ -38,6 +47,6 @@
 		"nicemod:sandstone_slabrecess",
 		"nicemod:sandstone_slabrecess_a",
 		"nicemod:weathercock",
-		cobblestone_gate
+		"nicemod:cobblestone_gate"
     ]
   }

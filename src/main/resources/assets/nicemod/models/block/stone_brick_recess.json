@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "nicemod:block/cobblestone",
-		"particle": "nicemod:block/cobblestone"
+		"0": "nicemod:block/stone_bricks",
+		"particle": "nicemod:block/stone_bricks"
 	},
 	"elements": [
 		{
@@ -30,27 +30,15 @@
 			}
 		},
 		{
-			"from": [4, 4, 4],
+			"from": [4, 0, 4],
 			"to": [12, 16, 16],
 			"faces": {
-				"north": {"uv": [4, 0, 12, 12], "texture": "#0"},
-				"east": {"uv": [4, 0, 16, 12], "texture": "#0"},
-				"south": {"uv": [4, 0, 12, 12], "texture": "#0"},
-				"west": {"uv": [4, 0, 16, 12], "texture": "#0"},
+				"north": {"uv": [4, 0, 12, 16], "texture": "#0"},
+				"east": {"uv": [4, 0, 16, 16], "texture": "#0"},
+				"south": {"uv": [4, 0, 12, 16], "texture": "#0"},
+				"west": {"uv": [4, 0, 16, 16], "texture": "#0"},
 				"up": {"uv": [4, 4, 12, 16], "texture": "#0"},
 				"down": {"uv": [4, 0, 12, 12], "texture": "#0"}
-			}
-		},
-		{
-			"from": [4, 0, 0],
-			"to": [12, 4, 16],
-			"faces": {
-				"north": {"uv": [4, 12, 12, 16], "texture": "#0"},
-				"east": {"uv": [0, 12, 16, 16], "texture": "#0"},
-				"south": {"uv": [4, 12, 12, 16], "texture": "#0"},
-				"west": {"uv": [0, 12, 16, 16], "texture": "#0"},
-				"up": {"uv": [4, 0, 12, 16], "texture": "#0"},
-				"down": {"uv": [4, 0, 12, 16], "texture": "#0"}
 			}
 		}
 	],
