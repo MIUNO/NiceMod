@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "111",
+      "  1",
+      "   "
+    ],
+    "key": {
+	  "1": { "item": "minecraft:oak_slab" }
+    },
+    "result": {
+      "item": "nicemod:big_oak_support",
+      "count": 1
+    }
+  }

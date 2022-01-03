@@ -1,4 +1,4 @@
-package ru.miuno.nicemod.blocks.block;
+package ru.miuno.nicemod.blocks.decoration;
 
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
@@ -19,10 +19,10 @@ import net.minecraft.util.math.Direction;
 import net.minecraft.world.BlockView;
 
 
-public class Recess extends HorizontalFacingBlock implements Waterloggable {
+public class CrossbarA extends HorizontalFacingBlock implements Waterloggable {
 	public static final BooleanProperty WATERLOGGED = Properties.WATERLOGGED;
 
-    public Recess(Settings settings) {
+    public CrossbarA(Settings settings) {
         super(settings);
         this.setDefaultState(this.stateManager.getDefaultState().with(Properties.HORIZONTAL_FACING, Direction.NORTH).with(WATERLOGGED, false));
     }
@@ -38,13 +38,13 @@ public class Recess extends HorizontalFacingBlock implements Waterloggable {
 		Direction dir = state.get(FACING);
 		switch(dir) {
 			case NORTH:
-				return VoxelShapes.union(VoxelShapes.cuboid(0, 0, 0, 0.25, 1, 1), VoxelShapes.cuboid(0.75, 0, 0, 1, 1, 1), VoxelShapes.cuboid(0.25, 0, 0.25, 1, 1, 1));
+				return VoxelShapes.union(VoxelShapes.cuboid(0, 0, 0.25, 1, 0.5, 0.75), VoxelShapes.cuboid(0.25, 0.5, 0,  0.75, 1, 1));
 			case SOUTH:
-				return VoxelShapes.union(VoxelShapes.cuboid(0, 0, 0, 0.25, 1, 1), VoxelShapes.cuboid(0.75, 0, 0, 1, 1, 1), VoxelShapes.cuboid(0.25, 0, 0, 1, 1, 0.75));
+                return VoxelShapes.union(VoxelShapes.cuboid(0, 0, 0.25, 1, 0.5, 0.75), VoxelShapes.cuboid(0.25, 0.5, 0,  0.75, 1, 1));
 			case EAST:
-				return VoxelShapes.union(VoxelShapes.cuboid(0, 0, 0, 1, 1, 0.25), VoxelShapes.cuboid(0, 0, 0.75, 1, 1, 1), VoxelShapes.cuboid(0, 0, 0.25, 0.75, 1, 1));
+				return VoxelShapes.union(VoxelShapes.cuboid(0.25, 0, 0,  0.75, 0.5, 1), VoxelShapes.cuboid(0, 0.5, 0.25, 1, 1, 0.75));
 			case WEST:
-				return VoxelShapes.union(VoxelShapes.cuboid(0, 0, 0, 1, 1, 0.25), VoxelShapes.cuboid(0, 0, 0.75, 1, 1, 1), VoxelShapes.cuboid(0.25, 0, 0.25, 1, 1, 1));
+				return VoxelShapes.union(VoxelShapes.cuboid(0.25, 0, 0,  0.75, 0.5, 1), VoxelShapes.cuboid(0, 0.5, 0.25, 1, 1, 0.75));
 			default:
 				return VoxelShapes.fullCube();
 		}
@@ -66,5 +66,4 @@ public class Recess extends HorizontalFacingBlock implements Waterloggable {
     public boolean canPathfindThrough(BlockState state, BlockView world, BlockPos pos, NavigationType type) {
         return true;
     }
-
 }

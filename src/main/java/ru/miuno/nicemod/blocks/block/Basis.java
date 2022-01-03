@@ -67,9 +67,7 @@ public class Basis extends Block implements Waterloggable {
 
     @Override
     public boolean canPathfindThrough(BlockState state, BlockView world, BlockPos pos, NavigationType type) {
-        return false;
+        return true;
     }
-
-    
 }
 

@@ -12,6 +12,10 @@
 		"nicemod:small_oak_support",
 		"nicemod:wall_lantern",
 		"nicemod:wall_lantern_a",
+		"nicemod:window",
+		"nicemod:big_oak_support",
+		"nicemod:crossbar",
+		"nicemod:crossbar_a",
 		"nicemod:post"
     ]
   }

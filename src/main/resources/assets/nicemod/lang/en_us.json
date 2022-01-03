@@ -46,9 +46,13 @@
     "block.nicemod.crate3": "Crate C",
     "block.nicemod.oak_support": "Oak support",
     "block.nicemod.small_oak_support": "Small oak support",
+    "block.nicemod.big_oak_support": "Big oak support",
     "block.nicemod.wall_lantern": "Wall lantern",
     "block.nicemod.wall_lantern_a": "Wall lantern A",
+    "block.nicemod.crossbar": "Crossbar",
+    "block.nicemod.crossbar_a": "Crossbar A",
     "block.nicemod.post": "Post",
+    "block.nicemod.window": "Window",
     "block.nicemod.weathercock": "Weathercock",
     "block.nicemod.cobblestone_gate": "Cobblestone gate"
 }

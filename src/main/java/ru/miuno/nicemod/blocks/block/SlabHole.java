@@ -1,6 +1,7 @@
 package ru.miuno.nicemod.blocks.block;
 
 import net.minecraft.block.*;
+import net.minecraft.entity.ai.pathing.NavigationType;
 import net.minecraft.fluid.FluidState;
 import net.minecraft.fluid.Fluids;
 import net.minecraft.item.ItemPlacementContext;
@@ -52,5 +53,9 @@ public class SlabHole extends RodBlock implements Waterloggable {
             case EAST -> VoxelShapes.union(VoxelShapes.cuboid(0, 0, 0, 0.5, 0.25, 1), VoxelShapes.cuboid(0, 0.75, 0, 0.5, 1, 1), VoxelShapes.cuboid(0, 0, 0, 0.5, 1, 0.25), VoxelShapes.cuboid(0, 0, 0.75, 0.5, 1, 1));
             case WEST -> VoxelShapes.union(VoxelShapes.cuboid(0.5, 0, 0, 1, 0.25, 1), VoxelShapes.cuboid(0.5, 0.75, 0, 1, 1, 1), VoxelShapes.cuboid(0.5, 0, 0, 1, 1, 0.25), VoxelShapes.cuboid(0.5, 0, 0.75, 1, 1, 1));
         };
+    }
+    @Override
+    public boolean canPathfindThrough(BlockState state, BlockView world, BlockPos pos, NavigationType type) {
+        return true;
     }
 }

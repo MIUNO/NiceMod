@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "   ",
+      " 1 ",
+      " 1 "
+    ],
+    "key": {
+	  "1": { "item": "nicemod:crossbar" }
+    },
+    "result": {
+      "item": "nicemod:crossbar_a",
+      "count": 2
+    }
+  }
