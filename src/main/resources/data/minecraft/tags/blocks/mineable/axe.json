@@ -9,13 +9,18 @@
 		"nicemod:crate2",
 		"nicemod:crate3",
 		"nicemod:oak_support",
+		"nicemod:big_oak_support",
 		"nicemod:small_oak_support",
+		"nicemod:wall_oak_support",
 		"nicemod:wall_lantern",
 		"nicemod:wall_lantern_a",
 		"nicemod:window",
-		"nicemod:big_oak_support",
 		"nicemod:crossbar",
 		"nicemod:crossbar_a",
+		"nicemod:crossbar_b",
+		"nicemod:crossbar_support",
+		"nicemod:crossbar_platform",
+		"nicemod:platform",
 		"nicemod:post"
     ]
   }

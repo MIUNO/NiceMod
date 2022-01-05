@@ -1,4 +1,4 @@
-package ru.miuno.nicemod.blocks.block;
+package ru.miuno.nicemod.blocks.decoration;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -16,10 +16,10 @@ import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
 
-public class Capital extends Block implements Waterloggable {
+public class CrossbarPlatform extends Block implements Waterloggable {
     public static final BooleanProperty WATERLOGGED = Properties.WATERLOGGED;
 
-    public Capital(Settings settings) {
+    public CrossbarPlatform(Settings settings) {
         super(settings);
         this.setDefaultState((BlockState)((BlockState)this.stateManager.getDefaultState()).with(WATERLOGGED, false));
     }
@@ -33,7 +33,7 @@ public class Capital extends Block implements Waterloggable {
 
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
-        return VoxelShapes.union(VoxelShapes.cuboid(0, 0, 0, 1, 0.125, 1), VoxelShapes.cuboid(0.125, 0.125, 0.125, 0.875, 1, 0.875), VoxelShapes.cuboid(0, 0.875, 0, 1, 1, 1));
+        return VoxelShapes.union(VoxelShapes.cuboid(0.25, 0, 0.25, 0.75, 1, 0.75), VoxelShapes.cuboid(0, 0.875, 0, 1, 1, 1));
     }
 
     @Override
@@ -52,4 +52,5 @@ public class Capital extends Block implements Waterloggable {
     public boolean canPathfindThrough(BlockState state, BlockView world, BlockPos pos, NavigationType type) {
         return true;
     }
+    
 }

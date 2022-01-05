@@ -3,6 +3,6 @@
   "ingredient": {
       "item": "minecraft:oak_planks"
     },
-  "result": "nicemod:crossbar_a",
+  "result": "nicemod:crossbar_support",
   "count": 1
 }

@@ -78,11 +78,16 @@ public class NiceBlock {
     public static final Block OAK_SUPPORT = registerBlock("oak_support", new Support(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block BIG_OAK_SUPPORT = registerBlock("big_oak_support", new BigSupport(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block SMALL_OAK_SUPPORT = registerBlock("small_oak_support", new SmallSupport(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+    public static final Block Wall_OAK_SUPPORT = registerBlock("wall_oak_support", new WallSupport(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block WALLLANTERN = registerBlock("wall_lantern", new WallLantern(FabricBlockSettings.copy(Blocks.LANTERN)));
     public static final Block WALLLANTERNA = registerBlock("wall_lantern_a", new WallLanternA(FabricBlockSettings.copy(Blocks.LANTERN)));
     public static final Block CROSSBAR = registerBlock("crossbar", new Crossbar(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block CROSSBAR_A = registerBlock("crossbar_a", new CrossbarA(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+    public static final Block CROSSBAR_B = registerBlock("crossbar_b", new CrossbarB(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+    public static final Block CROSSBAR_C = registerBlock("crossbar_support", new CrossbarSupport(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+    public static final Block CROSSBAR_D = registerBlock("crossbar_platform", new CrossbarPlatform(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block POST = registerBlock("post", new Post(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+    public static final Block PLATFORM = registerBlock("platform", new Platform(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block WINDOW = registerBlock("window", new Window(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block WEATHERCOCK = registerBlock("weathercock", new Weathercock(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     

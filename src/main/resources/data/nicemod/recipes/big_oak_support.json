@@ -1,15 +1,8 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-      "111",
-      "  1",
-      "   "
-    ],
-    "key": {
-	  "1": { "item": "minecraft:oak_slab" }
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+      "item": "minecraft:oak_planks"
     },
-    "result": {
-      "item": "nicemod:big_oak_support",
-      "count": 1
-    }
-  }
+  "result": "nicemod:big_oak_support",
+  "count": 1
+}

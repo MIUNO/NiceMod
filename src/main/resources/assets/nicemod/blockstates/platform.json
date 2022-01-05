@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "half=top": {
+      "model": "nicemod:block/platform"
+    },
+    "half=bottom": {
+      "model": "nicemod:block/platform_a",
+      "y": 90
+    }
+  }
+}
