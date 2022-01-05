@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "nicemod:block/oak_wall_lantern_a",
+      "y": 90
+    },
+    "facing=east": {
+      "model": "nicemod:block/oak_wall_lantern_a"
+    },
+    "facing=south": {
+      "model": "nicemod:block/oak_wall_lantern_a",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "nicemod:block/oak_wall_lantern_a"
+    }
+  }
+}

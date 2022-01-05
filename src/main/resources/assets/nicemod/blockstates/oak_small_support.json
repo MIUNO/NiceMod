@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "nicemod:block/oak_small_support"
+    },
+    "facing=east": {
+      "model": "nicemod:block/oak_small_support",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "nicemod:block/oak_small_support",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "nicemod:block/oak_small_support",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "nicemod:block/oak_crossbar_c"
+    },
+    "facing=east": {
+      "model": "nicemod:block/oak_crossbar_c",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "nicemod:block/oak_crossbar_c",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "nicemod:block/oak_crossbar_c",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "axis=x,half=top": {
+      "model": "nicemod:block/oak_crossbar",
+      "y": 90
+    },
+    "axis=x,half=bottom": {
+      "model": "nicemod:block/oak_crossbar_a",
+      "y": 90
+    },
+    "axis=y": {
+      "model": "nicemod:block/oak_crossbar_v"
+    },
+    "axis=z,half=top": {
+      "model": "nicemod:block/oak_crossbar"
+    },
+    "axis=z,half=bottom": {
+      "model": "nicemod:block/oak_crossbar_a"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "   ",
+      "   ",
+      " 21"
+    ],
+    "key": {
+	  "1": { "item": "nicemod:oak_support" },
+	  "2": { "item": "minecraft:lantern" }
+    },
+    "result": {
+      "item": "nicemod:oak_wall_lantern",
+      "count": 1
+    }
+  }

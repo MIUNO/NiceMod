@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "half=top": {
+      "model": "nicemod:block/oak_platform"
+    },
+    "half=bottom": {
+      "model": "nicemod:block/oak_platform_a",
+      "y": 90
+    }
+  }
+}
