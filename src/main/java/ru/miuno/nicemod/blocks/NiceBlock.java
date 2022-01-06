@@ -26,6 +26,9 @@ public class NiceBlock {
     public static final Block COBBLESTONE_SLABHOLE = registerBlock("cobblestone_slabhole", new SlabHole(FabricBlockSettings.copy(Blocks.COBBLESTONE)));
     public static final Block COBBLESTONE_SLABRECESS = registerBlock("cobblestone_slabrecess", new SlabRecess(FabricBlockSettings.copy(Blocks.COBBLESTONE)));
     public static final Block COBBLESTONE_SLABRECESS_A = registerBlock("cobblestone_slabrecess_a", new SlabRecess_a(FabricBlockSettings.copy(Blocks.COBBLESTONE)));
+    public static final Block COBBLESTONE_DEEPENING = registerBlock("cobblestone_deepening", new Deepening(FabricBlockSettings.copy(Blocks.COBBLESTONE)));
+    public static final Block COBBLESTONE_LOOPHOLE = registerBlock("cobblestone_loophole", new Loophole(FabricBlockSettings.copy(Blocks.COBBLESTONE)));
+    public static final Block COBBLESTONE_SLABLOOPHOLE = registerBlock("cobblestone_slabloophole", new SlabLoophole(FabricBlockSettings.copy(Blocks.COBBLESTONE)));
     // Cobbled deepslate
     public static final Block COBBLED_DEEPSLATE_BASIS = registerBlock("cobbled_deepslate_basis", new Basis(FabricBlockSettings.copy(Blocks.DEEPSLATE)));
     public static final Block COBBLED_DEEPSLATE_COLUMN = registerBlock("cobbled_deepslate_column", new Column(FabricBlockSettings.copy(Blocks.DEEPSLATE)));
@@ -36,6 +39,9 @@ public class NiceBlock {
     public static final Block COBBLED_DEEPSLATE_SLABHOLE = registerBlock("cobbled_deepslate_slabhole", new SlabHole(FabricBlockSettings.copy(Blocks.DEEPSLATE)));
     public static final Block COBBLED_DEEPSLATE_SLABRECESS = registerBlock("cobbled_deepslate_slabrecess", new SlabRecess(FabricBlockSettings.copy(Blocks.DEEPSLATE)));
     public static final Block COBBLED_DEEPSLATE_SLABRECESS_A = registerBlock("cobbled_deepslate_slabrecess_a", new SlabRecess_a(FabricBlockSettings.copy(Blocks.DEEPSLATE)));
+    public static final Block COBBLED_DEEPSLATE_DEEPENING = registerBlock("cobbled_deepslate_deepening", new Deepening(FabricBlockSettings.copy(Blocks.COBBLESTONE)));
+    public static final Block COBBLED_DEEPSLATE_LOOPHOLE = registerBlock("cobbled_deepslate_loophole", new Loophole(FabricBlockSettings.copy(Blocks.COBBLESTONE)));
+    public static final Block COBBLED_DEEPSLATE_SLABLOOPHOLE = registerBlock("cobbled_deepslate_slabloophole", new SlabLoophole(FabricBlockSettings.copy(Blocks.COBBLESTONE)));
     // Stone
     public static final Block STONE_BASIS = registerBlock("stone_basis", new Basis(FabricBlockSettings.copy(Blocks.STONE)));
     public static final Block STONE_COLUMN = registerBlock("stone_column", new Column(FabricBlockSettings.copy(Blocks.STONE)));
@@ -46,6 +52,9 @@ public class NiceBlock {
     public static final Block STONE_SLABHOLE = registerBlock("stone_slabhole", new SlabHole(FabricBlockSettings.copy(Blocks.STONE)));
     public static final Block STONE_SLABRECESS = registerBlock("stone_slabrecess", new SlabRecess(FabricBlockSettings.copy(Blocks.STONE)));
     public static final Block STONE_SLABRECESS_A = registerBlock("stone_slabrecess_a", new SlabRecess_a(FabricBlockSettings.copy(Blocks.STONE)));
+    public static final Block STONE_DEEPENING = registerBlock("stone_deepening", new Deepening(FabricBlockSettings.copy(Blocks.COBBLESTONE)));
+    public static final Block STONE_LOOPHOLE = registerBlock("stone_loophole", new Loophole(FabricBlockSettings.copy(Blocks.COBBLESTONE)));
+    public static final Block STONE_SLABLOOPHOLE = registerBlock("stone_slabloophole", new SlabLoophole(FabricBlockSettings.copy(Blocks.COBBLESTONE)));
     // Stone Bricks
     public static final Block STONE_BRICK_BASIS = registerBlock("stone_brick_basis", new Basis(FabricBlockSettings.copy(Blocks.STONE_BRICKS)));
     public static final Block STONE_BRICK_COLUMN = registerBlock("stone_brick_column", new Column(FabricBlockSettings.copy(Blocks.STONE_BRICKS)));
@@ -56,6 +65,9 @@ public class NiceBlock {
     public static final Block STONE_BRICK_SLABHOLE = registerBlock("stone_brick_slabhole", new SlabHole(FabricBlockSettings.copy(Blocks.STONE_BRICKS)));
     public static final Block STONE_BRICK_SLABRECESS = registerBlock("stone_brick_slabrecess", new SlabRecess(FabricBlockSettings.copy(Blocks.STONE_BRICKS)));
     public static final Block STONE_BRICK_SLABRECESS_A = registerBlock("stone_brick_slabrecess_a", new SlabRecess_a(FabricBlockSettings.copy(Blocks.STONE_BRICKS)));
+    public static final Block STONE_BRICK_DEEPENING = registerBlock("stone_brick_deepening", new Deepening(FabricBlockSettings.copy(Blocks.COBBLESTONE)));
+    public static final Block STONE_BRICK_LOOPHOLE = registerBlock("stone_brick_loophole", new Loophole(FabricBlockSettings.copy(Blocks.COBBLESTONE)));
+    public static final Block STONE_BRICK_SLABLOOPHOLE = registerBlock("stone_brick_slabloophole", new SlabLoophole(FabricBlockSettings.copy(Blocks.COBBLESTONE)));
     // Sandstone
     public static final Block SANDSTONE_BASIS = registerBlock("sandstone_basis", new Basis(FabricBlockSettings.copy(Blocks.SANDSTONE)));
     public static final Block SANDSTONE_COLUMN = registerBlock("sandstone_column", new Column(FabricBlockSettings.copy(Blocks.SANDSTONE)));
@@ -66,6 +78,9 @@ public class NiceBlock {
     public static final Block SANDSTONE_SLABHOLE = registerBlock("sandstone_slabhole", new SlabHole(FabricBlockSettings.copy(Blocks.SANDSTONE)));
     public static final Block SANDSTONE_SLABRECESS = registerBlock("sandstone_slabrecess", new SlabRecess(FabricBlockSettings.copy(Blocks.SANDSTONE)));
     public static final Block SANDSTONE_SLABRECESS_A = registerBlock("sandstone_slabrecess_a", new SlabRecess_a(FabricBlockSettings.copy(Blocks.SANDSTONE)));
+    public static final Block SANDSTONE_DEEPENING = registerBlock("sandstone_deepening", new Deepening(FabricBlockSettings.copy(Blocks.COBBLESTONE)));
+    public static final Block SANDSTONE_LOOPHOLE = registerBlock("sandstone_loophole", new Loophole(FabricBlockSettings.copy(Blocks.COBBLESTONE)));
+    public static final Block SANDSTONE_SLABLOOPHOLE = registerBlock("sandstone_slabloophole", new SlabLoophole(FabricBlockSettings.copy(Blocks.COBBLESTONE)));
 
 // Decorate blocks
     public static final Block BRIDGE = registerBlock("bridge", new Bridge(FabricBlockSettings.copy(Blocks.OAK_LOG)));

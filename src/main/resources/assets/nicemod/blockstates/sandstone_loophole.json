@@ -1,0 +1,32 @@
+{
+  "variants": {
+    "facing=north,half=bottom": {
+      "model": "nicemod:block/sandstone_loophole_down"
+    },
+    "facing=east,half=bottom": {
+      "model": "nicemod:block/sandstone_loophole_down",
+      "y": 90
+    },
+    "facing=south,half=bottom": {
+      "model": "nicemod:block/sandstone_loophole_down"
+    },
+    "facing=west,half=bottom": {
+      "model": "nicemod:block/sandstone_loophole_down",
+      "y": 90
+    },
+    "facing=north,half=top": {
+      "model": "nicemod:block/sandstone_loophole_up"
+    },
+    "facing=east,half=top": {
+      "model": "nicemod:block/sandstone_loophole_up",
+      "y": 90
+    },
+    "facing=south,half=top": {
+      "model": "nicemod:block/sandstone_loophole_up"
+    },
+    "facing=west,half=top": {
+      "model": "nicemod:block/sandstone_loophole_up",
+      "y": 90
+    }
+  }
+}

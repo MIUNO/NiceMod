@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "nicemod:block/stone_deepening"
+    },
+    "facing=east": {
+      "model": "nicemod:block/stone_deepening",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "nicemod:block/stone_deepening",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "nicemod:block/stone_deepening",
+      "y": 270
+    }
+  }
+}

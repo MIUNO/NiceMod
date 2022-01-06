@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=north,half=bottom": {
+      "model": "nicemod:block/stone_slabloophole_down"
+    },
+    "facing=east,half=bottom": {
+      "model": "nicemod:block/stone_slabloophole_down",
+      "y": 90
+    },
+    "facing=south,half=bottom": {
+      "model": "nicemod:block/stone_slabloophole_down",
+      "y": 180
+    },
+    "facing=west,half=bottom": {
+      "model": "nicemod:block/stone_slabloophole_down",
+      "y": 270
+    },
+    "facing=north,half=top": {
+      "model": "nicemod:block/stone_slabloophole_up"
+    },
+    "facing=east,half=top": {
+      "model": "nicemod:block/stone_slabloophole_up",
+      "y": 90
+    },
+    "facing=south,half=top": {
+      "model": "nicemod:block/stone_slabloophole_up",
+      "y": 180
+    },
+    "facing=west,half=top": {
+      "model": "nicemod:block/stone_slabloophole_up",
+      "y": 270
+    }
+  }
+}
