@@ -7,9 +7,9 @@ import net.minecraft.util.math.Direction;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
+import ru.miuno.nicemod.blocks.block_types.Horizontal;
 
-public class CrossbarSupport extends CrossbarA {
-
+public class CrossbarSupport extends Horizontal {
     public CrossbarSupport(Settings settings) {
         super(settings);
     }

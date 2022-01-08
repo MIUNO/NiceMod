@@ -7,9 +7,9 @@ import net.minecraft.util.math.Direction;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
+import ru.miuno.nicemod.blocks.block_types.Horizontal;
 
-public class Deepening extends Recess {
-
+public class Deepening extends Horizontal {
     public Deepening(Settings settings) {
         super(settings);
     }

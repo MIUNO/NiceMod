@@ -1,14 +1,15 @@
 package ru.miuno.nicemod.blocks.decoration;
 
-import net.minecraft.util.shape.VoxelShape;
-import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.ShapeContext;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
+import net.minecraft.util.shape.VoxelShape;
+import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
+import ru.miuno.nicemod.blocks.block_types.Horizontal;
 
-public class WallSupport extends Cannon {
+public class WallSupport extends Horizontal {
     public WallSupport(Settings settings) {
         super(settings);
     }

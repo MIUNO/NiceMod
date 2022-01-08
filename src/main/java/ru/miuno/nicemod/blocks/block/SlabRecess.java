@@ -7,10 +7,9 @@ import net.minecraft.block.ShapeContext;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.world.BlockView;
+import ru.miuno.nicemod.blocks.block_types.Horizontal;
 
-
-public class SlabRecess extends Recess {
-
+public class SlabRecess extends Horizontal {
 	public SlabRecess(Settings settings) {
 		super(settings);
 	}

@@ -8,12 +8,13 @@ import net.minecraft.util.math.Direction;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
+import ru.miuno.nicemod.blocks.block_types.HorizontalHalf;
 
-public class SlabLoophole extends Loophole{
-
+public class SlabLoophole extends HorizontalHalf{
     public SlabLoophole(Settings settings) {
         super(settings);
     }
+    
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
         Direction dir = state.get(FACING);
