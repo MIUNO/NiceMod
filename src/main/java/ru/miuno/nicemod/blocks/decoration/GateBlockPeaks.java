@@ -22,28 +22,28 @@ public class GateBlockPeaks extends HorizontalHalf {
         if (state.get(HALF) == BlockHalf.BOTTOM) {
             switch(dir) {
                 case NORTH:
-                    return VoxelShapes.cuboid(0, 0, 0, 1, 1, 1);
-                case SOUTH:
-                    return VoxelShapes.cuboid(0, 0, 0, 1, 1, 1);
-                case WEST:
-                    return VoxelShapes.cuboid(0, 0, 0, 1, 1, 1);
-                case EAST:
-                    return VoxelShapes.cuboid(0, 0, 0, 1, 1, 1);
-                default:
-                    return VoxelShapes.fullCube();
+				    return VoxelShapes.cuboid(0, 0, 0.4, 1, 0.8, 0.6);
+			    case SOUTH:
+				    return VoxelShapes.cuboid(0, 0, 0.4, 1, 0.8, 0.6);
+			    case EAST:
+				    return VoxelShapes.cuboid(0.4, 0, 0, 0.6, 0.8, 1);
+			    case WEST:
+				    return VoxelShapes.cuboid(0.4, 0, 0, 0.6, 0.8, 1);
+			    default:
+				    return VoxelShapes.fullCube();
             }
         } else {
             switch(dir) {
                 case NORTH:
-                    return VoxelShapes.cuboid(0, 0, 0, 1, 1, 1);
-                case SOUTH:
-                    return VoxelShapes.cuboid(0, 0, 0, 1, 1, 1);
-                case WEST:
-                    return VoxelShapes.cuboid(0, 0, 0, 1, 1, 1);
-                case EAST:
-                    return VoxelShapes.cuboid(0, 0, 0, 1, 1, 1);
-                default:
-                    return VoxelShapes.fullCube();
+				    return VoxelShapes.cuboid(0, 0.2, 0.4, 1, 1, 0.6);
+			    case SOUTH:
+				    return VoxelShapes.cuboid(0, 0.2, 0.4, 1, 1, 0.6);
+			    case EAST:
+				    return VoxelShapes.cuboid(0.4, 0.2, 0, 0.6, 1, 1);
+			    case WEST:
+				    return VoxelShapes.cuboid(0.4, 0.2, 0, 0.6, 1, 1);
+			    default:
+				    return VoxelShapes.fullCube();
             }
         }
     }

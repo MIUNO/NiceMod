@@ -1,0 +1,36 @@
+{
+  "variants": {
+    "facing=north,half=bottom": {
+      "model": "nicemod:block/oak_gate_peaks"
+    },
+    "facing=east,half=bottom": {
+      "model": "nicemod:block/oak_gate_peaks",
+      "y": 90
+    },
+    "facing=south,half=bottom": {
+      "model": "nicemod:block/oak_gate_peaks"
+    },
+    "facing=west,half=bottom": {
+      "model": "nicemod:block/oak_gate_peaks",
+      "y": 90
+    },
+    "facing=north,half=top": {
+      "model": "nicemod:block/oak_gate_peaks",
+      "x": 180
+    },
+    "facing=east,half=top": {
+      "model": "nicemod:block/oak_gate_peaks",
+      "y": 90,
+      "x": 180
+    },
+    "facing=south,half=top": {
+      "model": "nicemod:block/oak_gate_peaks",
+      "x": 180
+    },
+    "facing=west,half=top": {
+      "model": "nicemod:block/oak_gate_peaks",
+      "y": 90,
+      "x": 180
+    }
+  }
+}

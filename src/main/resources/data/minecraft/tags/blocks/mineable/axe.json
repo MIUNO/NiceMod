@@ -21,6 +21,8 @@
 		"nicemod:oak_crossbar_support",
 		"nicemod:oak_crossbar_platform",
 		"nicemod:oak_platform",
+		"nicemod:oak_gate",
+		"nicemod:oak_gate_peaks",
 		"nicemod:oak_post"
     ]
   }

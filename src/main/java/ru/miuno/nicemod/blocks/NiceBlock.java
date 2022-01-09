@@ -102,6 +102,8 @@ public class NiceBlock {
     public static final Block OAK_CROSSBAR_C = registerBlock("oak_crossbar_support", new CrossbarSupport(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block OAK_CROSSBAR_D = registerBlock("oak_crossbar_platform", new CrossbarPlatform(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block OAK_POST = registerBlock("oak_post", new Post(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+    public static final Block OAK_GATE = registerBlock("oak_gate", new GateBlock(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+    public static final Block OAK_GATE_PEAKS = registerBlock("oak_gate_peaks", new GateBlockPeaks(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block OAK_PLATFORM = registerBlock("oak_platform", new Platform(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block OAK_WINDOW = registerBlock("oak_window", new Window(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block WEATHERCOCK = registerBlock("weathercock", new Weathercock(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
