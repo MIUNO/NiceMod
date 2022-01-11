@@ -90,6 +90,7 @@ public class NiceBlock {
     public static final Block CRATE4 = registerBlock("crate1_a", new Crate(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block CRATE2 = registerBlock("crate2", new Crate(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block CRATE3 = registerBlock("crate3", new Crate(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+    public static final Block DECORE1 = registerBlock("oak_iron_armor_stand", new Decor(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block OAK_SUPPORT = registerBlock("oak_support", new Support(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block OAK_BIG_SUPPORT = registerBlock("oak_big_support", new BigSupport(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block OAK_SMALL_SUPPORT = registerBlock("oak_small_support", new SmallSupport(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
