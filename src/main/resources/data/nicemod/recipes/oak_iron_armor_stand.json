@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
       "   ",
-      " 11",
+      " 1 ",
       "222"
     ],
     "key": {
@@ -10,7 +10,7 @@
 	  "2": { "item": "minecraft:oak_slab" }
     },
     "result": {
-      "item": "nicemod:cannon",
+      "item": "nicemod:oak_iron_armor_stand",
       "count": 1
     }
   }

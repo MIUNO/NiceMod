@@ -2,15 +2,15 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
       "   ",
-      " 11",
+      " 1 ",
       "222"
     ],
     "key": {
 	  "1": { "item": "minecraft:iron_ingot" },
-	  "2": { "item": "minecraft:oak_slab" }
+	  "2": { "item": "minecraft:spruce_slab" }
     },
     "result": {
-      "item": "nicemod:cannon",
+      "item": "nicemod:spruce_iron_armor_stand",
       "count": 1
     }
   }

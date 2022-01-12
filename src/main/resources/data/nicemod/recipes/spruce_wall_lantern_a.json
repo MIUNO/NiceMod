@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "   ",
+      "   ",
+      "212"
+    ],
+    "key": {
+	  "1": { "item": "nicemod:spruce_support" },
+	  "2": { "item": "minecraft:lantern" }
+    },
+    "result": {
+      "item": "nicemod:spruce_wall_lantern_a",
+      "count": 1
+    }
+  }

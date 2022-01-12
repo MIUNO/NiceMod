@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "axis=x,half=top": {
+      "model": "nicemod:block/spruce_crossbar",
+      "y": 90
+    },
+    "axis=x,half=bottom": {
+      "model": "nicemod:block/spruce_crossbar_a",
+      "y": 90
+    },
+    "axis=y": {
+      "model": "nicemod:block/spruce_crossbar_v"
+    },
+    "axis=z,half=top": {
+      "model": "nicemod:block/spruce_crossbar"
+    },
+    "axis=z,half=bottom": {
+      "model": "nicemod:block/spruce_crossbar_a"
+    }
+  }
+}

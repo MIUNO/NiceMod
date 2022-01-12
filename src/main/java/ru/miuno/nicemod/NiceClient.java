@@ -9,7 +9,7 @@ public class NiceClient implements ClientModInitializer  {
 
 	@Override
 	public void onInitializeClient() {
-        BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), NiceBlock.WEATHERCOCK, NiceBlock.OAK_WALLLANTERN, NiceBlock.OAK_WALLLANTERNA, NiceBlock.OAK_WINDOW,
-		NiceBlock.DECORE1);
+        BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), NiceBlock.WEATHERCOCK, NiceBlock.OAK_WALLLANTERN, NiceBlock.OAK_WALLLANTERNA, NiceBlock.OAK_WINDOW, NiceBlock.OAK_DECORE1, 
+		NiceBlock.SPRUCE_WINDOW, NiceBlock.SPRUCE_DECORE1);
 	}
 }

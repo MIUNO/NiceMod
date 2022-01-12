@@ -90,7 +90,8 @@ public class NiceBlock {
     public static final Block CRATE4 = registerBlock("crate1_a", new Crate(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block CRATE2 = registerBlock("crate2", new Crate(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block CRATE3 = registerBlock("crate3", new Crate(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
-    public static final Block DECORE1 = registerBlock("oak_iron_armor_stand", new Decor(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+    // Oak
+    public static final Block OAK_DECORE1 = registerBlock("oak_iron_armor_stand", new Decor(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block OAK_SUPPORT = registerBlock("oak_support", new Support(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block OAK_BIG_SUPPORT = registerBlock("oak_big_support", new BigSupport(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block OAK_SMALL_SUPPORT = registerBlock("oak_small_support", new SmallSupport(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
@@ -107,6 +108,25 @@ public class NiceBlock {
     public static final Block OAK_GATE_PEAKS = registerBlock("oak_gate_peaks", new GateBlockPeaks(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block OAK_PLATFORM = registerBlock("oak_platform", new Platform(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block OAK_WINDOW = registerBlock("oak_window", new Window(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+    // Spruce
+    public static final Block SPRUCE_DECORE1 = registerBlock("spruce_iron_armor_stand", new Decor(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+    public static final Block SPRUCE_SUPPORT = registerBlock("spruce_support", new Support(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+    public static final Block SPRUCE_BIG_SUPPORT = registerBlock("spruce_big_support", new BigSupport(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+    public static final Block SPRUCE_SMALL_SUPPORT = registerBlock("spruce_small_support", new SmallSupport(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+    public static final Block SPRUCE_WALL_SUPPORT = registerBlock("spruce_wall_support", new WallSupport(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+    public static final Block SPRUCE_WALLLANTERN = registerBlock("spruce_wall_lantern", new WallLantern(FabricBlockSettings.copy(Blocks.LANTERN)));
+    public static final Block SPRUCE_WALLLANTERNA = registerBlock("spruce_wall_lantern_a", new WallLanternA(FabricBlockSettings.copy(Blocks.LANTERN)));
+    public static final Block SPRUCE_CROSSBAR = registerBlock("spruce_crossbar", new Crossbar(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+    public static final Block SPRUCE_CROSSBAR_A = registerBlock("spruce_crossbar_a", new CrossbarA(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+    public static final Block SPRUCE_CROSSBAR_B = registerBlock("spruce_crossbar_b", new CrossbarB(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+    public static final Block SPRUCE_CROSSBAR_C = registerBlock("spruce_crossbar_support", new CrossbarSupport(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+    public static final Block SPRUCE_CROSSBAR_D = registerBlock("spruce_crossbar_platform", new CrossbarPlatform(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+    public static final Block SPRUCE_POST = registerBlock("spruce_post", new Post(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+    public static final Block SPRUCE_GATE = registerBlock("spruce_gate", new GateBlock(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+    public static final Block SPRUCE_GATE_PEAKS = registerBlock("spruce_gate_peaks", new GateBlockPeaks(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+    public static final Block SPRUCE_PLATFORM = registerBlock("spruce_platform", new Platform(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+    public static final Block SPRUCE_WINDOW = registerBlock("spruce_window", new Window(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+
     public static final Block WEATHERCOCK = registerBlock("weathercock", new Weathercock(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     
 // Worcker blocks

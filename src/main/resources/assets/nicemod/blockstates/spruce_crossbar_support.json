@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "nicemod:block/spruce_crossbar_support"
+    },
+    "facing=east": {
+      "model": "nicemod:block/spruce_crossbar_support",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "nicemod:block/spruce_crossbar_support",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "nicemod:block/spruce_crossbar_support",
+      "y": 270
+    }
+  }
+}

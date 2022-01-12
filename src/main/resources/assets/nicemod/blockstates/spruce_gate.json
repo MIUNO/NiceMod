@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "nicemod:block/spruce_gate"
+    },
+    "facing=east": {
+      "model": "nicemod:block/spruce_gate",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "nicemod:block/spruce_gate"
+    },
+    "facing=west": {
+      "model": "nicemod:block/spruce_gate",
+      "y": 90
+    }
+  }
+}

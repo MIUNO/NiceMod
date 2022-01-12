@@ -7,10 +7,10 @@
     ],
     "key": {
 	  "1": { "item": "minecraft:iron_ingot" },
-	  "2": { "item": "minecraft:oak_planks" }
+	  "2": { "item": "minecraft:oak_slab" }
     },
     "result": {
       "item": "nicemod:mortirer",
-      "count": 2
+      "count": 1
     }
   }

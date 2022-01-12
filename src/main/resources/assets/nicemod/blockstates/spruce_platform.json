@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "half=top": {
+      "model": "nicemod:block/spruce_platform"
+    },
+    "half=bottom": {
+      "model": "nicemod:block/spruce_platform_a",
+      "y": 90
+    }
+  }
+}
