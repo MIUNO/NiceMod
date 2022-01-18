@@ -102,6 +102,13 @@
     "block.nicemod.spruce_gate": "Еловые ворота",
     "block.nicemod.spruce_gate_peaks": "Еловые ворота с пиками",
     "block.nicemod.spruce_window": "Еловое окно",
+    "block.nicemod.flowerbed_rose_bush": "Клумба с розовым кустом",
+    "block.nicemod.flowerbed_peony": "Клумба с пионом",
+    "block.nicemod.flowerbed_lilac": "Клумба с сиренью",
+    "block.nicemod.flowerbed_blue_orchid": "Клумба с орхидеями",
+    "block.nicemod.flowerbed_red_tulip": "Клумба с тюльпанами",
+    "block.nicemod.flowerbed_dandelion": "Клумба с одуванчиками",
+    "block.nicemod.flowerbed_oxeye_daisy": "Клумба с ромашками",
     "block.nicemod.weathercock": "Флюгер",
     "block.nicemod.cobblestone_gate": "Булыжные ворота"
 }

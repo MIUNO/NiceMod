@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "nicemod:block/flowerbed_oxeye_daisy"
+    },
+    "facing=east": {
+      "model": "nicemod:block/flowerbed_oxeye_daisy",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "nicemod:block/flowerbed_oxeye_daisy",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "nicemod:block/flowerbed_oxeye_daisy",
+      "y": 270
+    }
+  }
+}

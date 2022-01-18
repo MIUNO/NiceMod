@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "nicemod:block/flowerbed_lilac"
+    },
+    "facing=east": {
+      "model": "nicemod:block/flowerbed_lilac",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "nicemod:block/flowerbed_lilac",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "nicemod:block/flowerbed_lilac",
+      "y": 270
+    }
+  }
+}

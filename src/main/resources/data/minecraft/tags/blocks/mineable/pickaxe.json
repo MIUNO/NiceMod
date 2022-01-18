@@ -61,6 +61,13 @@
         "nicemod:sandstone_deepening",
 		"nicemod:sandstone_loophole",
 		"nicemod:sandstone_slabloophole",
+		"nicemod:flowerbed_rose_bush",
+		"nicemod:flowerbed_peony",
+		"nicemod:flowerbed_lilac",
+		"nicemod:flowerbed_blue_orchid",
+		"nicemod:flowerbed_red_tulip",
+		"nicemod:flowerbed_dandelion",
+		"nicemod:flowerbed_oxeye_daisy",
 		"nicemod:weathercock",
 		"nicemod:cobblestone_gate"
     ]

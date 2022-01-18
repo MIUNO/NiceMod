@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "   ",
+      " 1 ",
+      " 2 "
+    ],
+    "key": {
+	  "1": { "item": "minecraft:oxeye_daisy" },
+	  "2": { "item": "minecraft:cobblestone_slab" }
+    },
+    "result": {
+      "item": "nicemod:flowerbed_oxeye_daisy",
+      "count": 1
+    }
+  }
