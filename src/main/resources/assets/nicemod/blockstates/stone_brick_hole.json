@@ -2,11 +2,13 @@
     "variants": {
       "axis=x": {
         "model": "nicemod:block/stone_brick_hole",
-        "y": 90
+        "y": 90,
+        "uvlock": "true"
       },
       "axis=y": {
         "model": "nicemod:block/stone_brick_hole",
-        "x": 90
+        "x": 90,
+        "uvlock": "true"
       },
       "axis=z": {
         "model": "nicemod:block/stone_brick_hole"

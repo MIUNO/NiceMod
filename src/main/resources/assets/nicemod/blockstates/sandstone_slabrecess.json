@@ -5,14 +5,16 @@
     },
     "facing=east": {
       "model": "nicemod:block/sandstone_slabrecess",
-      "y": 90
+      "y": 90,
+      "uvlock": "true"
     },
     "facing=south": {
       "model": "nicemod:block/sandstone_slabrecess"
     },
     "facing=west": {
       "model": "nicemod:block/sandstone_slabrecess",
-      "y": 90
+      "y": 90,
+      "uvlock": "true"
     }
   }
 }
