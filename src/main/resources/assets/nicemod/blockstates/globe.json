@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "nicemod:block/globe"
+    },
+    "facing=east": {
+      "model": "nicemod:block/globe",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "nicemod:block/globe",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "nicemod:block/globe",
+      "y": 270
+    }
+  }
+}
