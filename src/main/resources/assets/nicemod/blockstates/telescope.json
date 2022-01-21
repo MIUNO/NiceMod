@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "nicemod:block/telescope"
+    },
+    "facing=east": {
+      "model": "nicemod:block/telescope",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "nicemod:block/telescope",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "nicemod:block/telescope",
+      "y": 270
+    }
+  }
+}
