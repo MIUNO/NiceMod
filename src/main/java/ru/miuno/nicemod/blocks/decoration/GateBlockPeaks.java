@@ -1,6 +1,5 @@
 package ru.miuno.nicemod.blocks.decoration;
 
-import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.ShapeContext;
 import net.minecraft.block.enums.BlockHalf;
@@ -12,7 +11,7 @@ import net.minecraft.world.BlockView;
 import ru.miuno.nicemod.blocks.block_types.HorizontalHalf;
 
 public class GateBlockPeaks extends HorizontalHalf {
-    public GateBlockPeaks(AbstractBlock.Settings settings) {
+    public GateBlockPeaks(Settings settings) {
         super(settings);
     }
     

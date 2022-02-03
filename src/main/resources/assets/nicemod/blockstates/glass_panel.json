@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=top": {
+      "model": "nicemod:block/glass_panel_top"
+    },
+    "half=bottom": {
+      "model": "nicemod:block/glass_panel_bottom"
+    }
+  }
+}

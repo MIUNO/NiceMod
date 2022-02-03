@@ -136,7 +136,9 @@ public class NiceBlock {
     public static final Block FLOWERBED_RED_TULIP = registerBlock("flowerbed_red_tulip", new Decor2(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block FLOWERBED_DANDELION = registerBlock("flowerbed_dandelion", new Decor2(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block FLOWERBED_OXEYE_DAISY = registerBlock("flowerbed_oxeye_daisy", new Decor2(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+    public static final Block GLASS_PANEL = registerBlock("glass_panel", new GlassPanel(FabricBlockSettings.copy(Blocks.GLASS_PANE)));
 
+    // Glass
     public static final Block WEATHERCOCK = registerBlock("weathercock", new Weathercock(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     
 // Worcker blocks
