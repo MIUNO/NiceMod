@@ -127,8 +127,8 @@ public class NiceBlock {
     public static final Block CRATE4 = registerBlock("crate1_a", new Crate(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block CRATE2 = registerBlock("crate2", new Crate(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block CRATE3 = registerBlock("crate3", new Crate(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
-    public static final Block GLOBE = registerBlock("globe", new Decor3(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
-    public static final Block TELESCOPE = registerBlock("telescope", new Decor3(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+    //public static final Block GLOBE = registerBlock("globe", new Decor3(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+    //public static final Block TELESCOPE = registerBlock("telescope", new Decor3(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block FLOWERBED_ROSE_BUSH = registerBlock("flowerbed_rose_bush", new Decor2(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block FLOWERBED_PEONY = registerBlock("flowerbed_peony", new Decor2(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block FLOWERBED_LILAC = registerBlock("flowerbed_lilac", new Decor2(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
@@ -136,7 +136,7 @@ public class NiceBlock {
     public static final Block FLOWERBED_RED_TULIP = registerBlock("flowerbed_red_tulip", new Decor2(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block FLOWERBED_DANDELION = registerBlock("flowerbed_dandelion", new Decor2(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block FLOWERBED_OXEYE_DAISY = registerBlock("flowerbed_oxeye_daisy", new Decor2(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
-    public static final Block GLASS_PANEL = registerBlock("glass_panel", new GlassPanel(FabricBlockSettings.copy(Blocks.GLASS_PANE)));
+    //public static final Block GLASS_PANEL = registerBlock("glass_panel", new GlassPanel(FabricBlockSettings.copy(Blocks.GLASS_PANE)));
 
     // Glass
     public static final Block WEATHERCOCK = registerBlock("weathercock", new Weathercock(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
