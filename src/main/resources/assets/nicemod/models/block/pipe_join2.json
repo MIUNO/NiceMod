@@ -1,0 +1,34 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"0": "nicemod:block/pipe",
+		"particle": "nicemod:block/pipe"
+	},
+	"elements": [
+		{
+			"from": [5, 5, 2],
+			"to": [11, 11, 5],
+			"faces": {
+				"north": {"uv": [0, 0, 6, 6], "texture": "#0"},
+				"east": {"uv": [6, 0, 9, 6], "texture": "#0"},
+				"south": {"uv": [0, 0, 6, 6], "texture": "#0"},
+				"west": {"uv": [6, 0, 9, 6], "texture": "#0"},
+				"up": {"uv": [6, 0, 9, 6], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [6, 0, 9, 6], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [4, 4, 0],
+			"to": [12, 12, 2],
+			"faces": {
+				"north": {"uv": [0, 6, 8, 14], "texture": "#0"},
+				"east": {"uv": [4, 6, 6, 14], "texture": "#0"},
+				"south": {"uv": [0, 6, 8, 14], "texture": "#0"},
+				"west": {"uv": [0, 6, 2, 14], "texture": "#0"},
+				"up": {"uv": [2, 6, 4, 14], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [6, 6, 8, 14], "rotation": 90, "texture": "#0"}
+			}
+		}
+	]
+}

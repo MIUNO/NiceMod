@@ -112,7 +112,7 @@
                 "facing": "down"
             },
             "apply": {
-                "model": "nicemod:block/pipe_join",
+                "model": "nicemod:block/pipe_join2",
                 "x": 90
             }
         },
@@ -122,7 +122,7 @@
                 "facing": "up"
             },
             "apply": {
-                "model": "nicemod:block/pipe_join",
+                "model": "nicemod:block/pipe_join2",
                 "x": -90
             }
         },
@@ -132,7 +132,7 @@
                 "facing": "west"
             },
             "apply": {
-                "model": "nicemod:block/pipe_join",
+                "model": "nicemod:block/pipe_join2",
                 "y": 270
             }
         },
@@ -142,7 +142,7 @@
                 "facing": "east"
             },
             "apply": {
-                "model": "nicemod:block/pipe_join",
+                "model": "nicemod:block/pipe_join2",
                 "y": 90
             }
         },
@@ -152,7 +152,7 @@
                 "facing": "north"
             },
             "apply": {
-                "model": "nicemod:block/pipe_join",
+                "model": "nicemod:block/pipe_join2",
                 "y": 0
             }
         },
@@ -162,7 +162,7 @@
                 "facing": "south"
             },
             "apply": {
-                "model": "nicemod:block/pipe_join",
+                "model": "nicemod:block/pipe_join2",
                 "y": 180
             }
         }
