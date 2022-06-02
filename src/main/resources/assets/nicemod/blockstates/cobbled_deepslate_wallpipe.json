@@ -1,0 +1,27 @@
+{
+  "variants": {
+	  "facing=up": {
+      "model": "nicemod:block/cobbled_deepslate_wallpipe",
+      "x": 270
+    },
+	  "facing=down": {
+      "model": "nicemod:block/cobbled_deepslate_wallpipe",
+      "x": 90
+    },
+    "facing=north": {
+      "model": "nicemod:block/cobbled_deepslate_wallpipe"
+    },
+    "facing=east": {
+      "model": "nicemod:block/cobbled_deepslate_wallpipe",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "nicemod:block/cobbled_deepslate_wallpipe",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "nicemod:block/cobbled_deepslate_wallpipe",
+      "y": 270
+    }
+  }
+}

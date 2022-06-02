@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
+		"nicemod:bell",
         "nicemod:bridge",
         "nicemod:cannon",
         "nicemod:mortirer",

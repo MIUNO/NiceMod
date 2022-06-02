@@ -1,5 +1,5 @@
 package ru.miuno.nicemod;
 
-public class NiceTags {
+public class NiceTags{
 
 }

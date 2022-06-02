@@ -12,6 +12,7 @@
 		"nicemod:cobblestone_slabrecess_a",
         "nicemod:cobblestone_loophole",
 		"nicemod:cobblestone_slabloophole",
+        "nicemod:cobblestone_wallpipe",
 		"nicemod:cobblestone_deepening",
         "nicemod:cobbled_deepslate_basis",
         "nicemod:cobbled_deepslate_column",
@@ -25,6 +26,7 @@
         "nicemod:cobbled_deepslate_deepening",
 		"nicemod:cobbled_deepslate_loophole",
 		"nicemod:cobbled_deepslate_slabloophole",
+        "nicemod:cobbled_deepslate_wallpipe",
         "nicemod:stone_brick_basis",
         "nicemod:stone_brick_column",
         "nicemod:stone_brick_capital",
@@ -37,6 +39,7 @@
         "nicemod:stone_brick_deepening",
 		"nicemod:stone_brick_loophole",
 		"nicemod:stone_brick_slabloophole",
+        "nicemod:stone_brick_wallpipe",
 		"nicemod:stone_basis",
         "nicemod:stone_column",
         "nicemod:stone_capital",
@@ -49,6 +52,7 @@
         "nicemod:stone_deepening",
 		"nicemod:stone_loophole",
 		"nicemod:stone_slabloophole",
+        "nicemod:stone_wallpipe",
         "nicemod:sandstone_basis",
         "nicemod:sandstone_column",
         "nicemod:sandstone_capital",
@@ -61,6 +65,7 @@
         "nicemod:sandstone_deepening",
 		"nicemod:sandstone_loophole",
 		"nicemod:sandstone_slabloophole",
+        "nicemod:sandstone_wallpipe",
 		"nicemod:flowerbed_rose_bush",
 		"nicemod:flowerbed_peony",
 		"nicemod:flowerbed_lilac",
@@ -69,6 +74,7 @@
 		"nicemod:flowerbed_dandelion",
 		"nicemod:flowerbed_oxeye_daisy",
 		"nicemod:weathercock",
-		"nicemod:cobblestone_gate"
+		"nicemod:cobblestone_gate",
+		"nicemod:pipe"
     ]
   }

@@ -1,0 +1,27 @@
+{
+  "variants": {
+	  "facing=up": {
+      "model": "nicemod:block/stone_brick_wallpipe",
+      "x": 270
+    },
+	  "facing=down": {
+      "model": "nicemod:block/stone_brick_wallpipe",
+      "x": 90
+    },
+    "facing=north": {
+      "model": "nicemod:block/stone_brick_wallpipe"
+    },
+    "facing=east": {
+      "model": "nicemod:block/stone_brick_wallpipe",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "nicemod:block/stone_brick_wallpipe",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "nicemod:block/stone_brick_wallpipe",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "   ",
+      "  1",
+      " 23"
+    ],
+    "key": {
+	  "1": { "item": "minecraft:copper_ingot" },
+	  "2": { "item": "minecraft:oak_planks" },
+	  "3": { "item": "minecraft:redstone" }
+    },
+    "result": {
+      "item": "nicemod:bell",
+      "count": 1
+    }
+  }

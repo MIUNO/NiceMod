@@ -1,0 +1,170 @@
+{
+    "multipart": [
+        {
+            "when": {
+                "facing": "north"
+            },
+            "apply": {
+                "model": "nicemod:block/pipe_core"
+            }
+        },
+        {
+            "when": {
+                "facing": "east"
+            },
+            "apply": {
+                "model": "nicemod:block/pipe_core",
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "facing": "south"
+            },
+            "apply": {
+                "model": "nicemod:block/pipe_core",
+                "y": 180
+            }
+        },
+        {
+            "when": {
+                "facing": "west"
+            },
+            "apply": {
+                "model": "nicemod:block/pipe_core",
+                "y": 270
+            }
+        },
+        {
+            "when": {
+                "facing": "down"
+            },
+            "apply": {
+                "model": "nicemod:block/pipe_core",
+                "x": 90
+            }
+        },
+        {
+            "when": {
+                "facing": "up"
+            },
+            "apply": {
+                "model": "nicemod:block/pipe_core",
+                "x": -90
+            }
+        },
+        {
+            "when": {
+                "north": "true"
+            },
+            "apply": {
+                "model": "nicemod:block/pipe_join"
+            }
+        },
+        {
+            "when": {
+                "east": "true"
+            },
+            "apply": {
+                "model": "nicemod:block/pipe_join",
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "south": "true"
+            },
+            "apply": {
+                "model": "nicemod:block/pipe_join",
+                "y": 180
+            }
+        },
+        {
+            "when": {
+                "west": "true"
+            },
+            "apply": {
+                "model": "nicemod:block/pipe_join",
+                "y": 270
+            }
+        },
+        {
+            "when": {
+                "up": "true"
+            },
+            "apply": {
+                "model": "nicemod:block/pipe_join",
+                "x": -90
+            }
+        },
+        {
+            "when": {
+                "down": "true"
+            },
+            "apply": {
+                "model": "nicemod:block/pipe_join",
+                "x": 90
+            }
+        },
+        {
+            "when": {
+                "down": "false",
+                "facing": "down"
+            },
+            "apply": {
+                "model": "nicemod:block/pipe_join",
+                "x": 90
+            }
+        },
+        {
+            "when": {
+                "up": "false",
+                "facing": "up"
+            },
+            "apply": {
+                "model": "nicemod:block/pipe_join",
+                "x": -90
+            }
+        },
+        {
+            "when": {
+                "west": "false",
+                "facing": "west"
+            },
+            "apply": {
+                "model": "nicemod:block/pipe_join",
+                "y": 270
+            }
+        },
+        {
+            "when": {
+                "east": "false",
+                "facing": "east"
+            },
+            "apply": {
+                "model": "nicemod:block/pipe_join",
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "north": "false",
+                "facing": "north"
+            },
+            "apply": {
+                "model": "nicemod:block/pipe_join",
+                "y": 0
+            }
+        },
+        {
+            "when": {
+                "south": "false",
+                "facing": "south"
+            },
+            "apply": {
+                "model": "nicemod:block/pipe_join",
+                "y": 180
+            }
+        }
+    ]
+}

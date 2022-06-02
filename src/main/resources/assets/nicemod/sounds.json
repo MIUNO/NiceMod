@@ -1,0 +1,10 @@
+{
+  "bell": {
+	"subtitle": "subtitles.nicemod.bell",
+    "sounds": [
+      "nicemod:bell_1",
+	    "nicemod:bell_2",
+	    "nicemod:bell_3"
+    ]
+  }
+}
