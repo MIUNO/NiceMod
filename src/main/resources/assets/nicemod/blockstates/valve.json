@@ -1,0 +1,27 @@
+{
+  "variants": {
+	  "facing=up": {
+      "model": "nicemod:block/valve",
+      "x": 270
+    },
+	  "facing=down": {
+      "model": "nicemod:block/valve",
+      "x": 90
+    },
+    "facing=north": {
+      "model": "nicemod:block/valve"
+    },
+    "facing=east": {
+      "model": "nicemod:block/valve",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "nicemod:block/valve",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "nicemod:block/valve",
+      "y": 270
+    }
+  }
+}

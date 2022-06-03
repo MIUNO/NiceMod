@@ -14,6 +14,6 @@ public class NiceClient implements ClientModInitializer  {
 		NiceBlock.SPRUCE_WALLLANTERN, NiceBlock.SPRUCE_WALLLANTERNA, NiceBlock.SPRUCE_WINDOW, NiceBlock.SPRUCE_DECORE1,
 		NiceBlock.WEATHERCOCK, /*NiceBlock.GLOBE,*/
 		NiceBlock.FLOWERBED_ROSE_BUSH, NiceBlock.FLOWERBED_PEONY, NiceBlock.FLOWERBED_LILAC, NiceBlock.FLOWERBED_BLUE_ORCHID, NiceBlock.FLOWERBED_RED_TULIP, NiceBlock.FLOWERBED_DANDELION, NiceBlock.FLOWERBED_OXEYE_DAISY,
-		NiceBlock.GLASS_PANEL);
+		NiceBlock.GLASS_PANEL, NiceBlock.VALVE);
 	}
 }

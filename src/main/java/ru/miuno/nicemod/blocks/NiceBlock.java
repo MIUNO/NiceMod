@@ -150,6 +150,7 @@ public class NiceBlock {
     public static final Block COBBLESTONE_GATE = registerBlock("cobblestone_gate", new Gate(FabricBlockSettings.copy(Blocks.COBBLESTONE)));
     public static final Block BELL = registerBlock("bell", new Bell(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block PIPE = registerBlock("pipe", new Pipe(FabricBlockSettings.copy(Blocks.COPPER_BLOCK)));
+    public static final Block VALVE = registerBlock("valve", new Valve(FabricBlockSettings.copy(Blocks.COPPER_BLOCK)));
 
 //  Register
     private static Block registerBlock(String name, Block block){
