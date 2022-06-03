@@ -11,6 +11,3 @@ Minecraft mod for fabric, adding a variety of decorative and building blocks. Bl
 - Project plan [click](https://github.com/MIUNO/NiceMod/projects/1).
 - CurseForge [click](https://www.curseforge.com/minecraft/mc-mods/nicemod-new-blocks).
 - Modrinth [click](https://modrinth.com/mod/nicemod).
-
-![](https://raw.githubusercontent.com/MIUNO/NiceMod/main/githubWiki/curseforge.png)
-![](https://raw.githubusercontent.com/MIUNO/NiceMod/main/githubWiki/curseforge2.png)
