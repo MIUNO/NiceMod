@@ -11,7 +11,6 @@ import net.minecraft.util.registry.Registry;
 import ru.miuno.nicemod.NiceMod;
 import ru.miuno.nicemod.blocks.block.*;
 import ru.miuno.nicemod.blocks.decoration.*;
-import ru.miuno.nicemod.blocks.worker.*;
 import ru.miuno.nicemod.itemgroup.NiceItemGroup;
 
 public class NiceBlock {
@@ -132,8 +131,8 @@ public class NiceBlock {
     public static final Block CRATE4 = registerBlock("crate1_a", new Crate(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block CRATE2 = registerBlock("crate2", new Crate(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block CRATE3 = registerBlock("crate3", new Crate(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
-    //public static final Block GLOBE = registerBlock("globe", new Decor3(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
-    //public static final Block TELESCOPE = registerBlock("telescope", new Decor3(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+    public static final Block GLOBE = registerBlock("globe", new Decor3(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+    public static final Block TELESCOPE = registerBlock("telescope", new Decor3(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block FLOWERBED_ROSE_BUSH = registerBlock("flowerbed_rose_bush", new Decor2(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block FLOWERBED_PEONY = registerBlock("flowerbed_peony", new Decor2(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block FLOWERBED_LILAC = registerBlock("flowerbed_lilac", new Decor2(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
@@ -147,7 +146,6 @@ public class NiceBlock {
     public static final Block WEATHERCOCK = registerBlock("weathercock", new Weathercock(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     
 // Worcker blocks
-    public static final Block COBBLESTONE_GATE = registerBlock("cobblestone_gate", new Gate(FabricBlockSettings.copy(Blocks.COBBLESTONE)));
     public static final Block BELL = registerBlock("bell", new Bell(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block PIPE = registerBlock("pipe", new Pipe(FabricBlockSettings.copy(Blocks.COPPER_BLOCK)));
     public static final Block VALVE = registerBlock("valve", new Valve(FabricBlockSettings.copy(Blocks.COPPER_BLOCK)));

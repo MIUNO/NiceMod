@@ -1,5 +1,6 @@
 package ru.miuno.nicemod.blocks.decoration;
 
+import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.ShapeContext;
 import net.minecraft.util.math.BlockPos;
@@ -15,6 +16,6 @@ public class CrossbarPlatform extends WaterloggableBlock {
 
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
-        return VoxelShapes.union(VoxelShapes.cuboid(0.25, 0, 0.25, 0.75, 1, 0.75), VoxelShapes.cuboid(0, 0.875, 0, 1, 1, 1));
+        return VoxelShapes.union(Block.createCuboidShape(4, 0, 4, 12, 16, 12), Block.createCuboidShape(0, 13, 0, 16, 16, 16));
     }
 }

@@ -1,5 +1,6 @@
 package ru.miuno.nicemod.blocks.decoration;
 
+import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.ShapeContext;
 import net.minecraft.util.math.BlockPos;
@@ -17,17 +18,12 @@ public class CrossbarSupport extends Horizontal {
     @Override  
 	public VoxelShape getOutlineShape(BlockState state, BlockView view, BlockPos pos, ShapeContext ctx) {
 		Direction dir = state.get(FACING);
-		switch(dir) {
-			case NORTH:
-				return VoxelShapes.union(VoxelShapes.cuboid(0.25, 0, 0.5, 0.75, 0.875, 1), VoxelShapes.cuboid(0, 0.875, 0, 1, 1, 1));
-			case SOUTH:
-				return VoxelShapes.union(VoxelShapes.cuboid(0.25, 0, 0, 0.75, 0.875, 0.5), VoxelShapes.cuboid(0, 0.875, 0, 1, 1, 1));
-			case EAST:
-				return VoxelShapes.union(VoxelShapes.cuboid(0, 0, 0.25, 0.5, 0.875, 0.75), VoxelShapes.cuboid(0, 0.875, 0, 1, 1, 1));
-			case WEST:
-				return VoxelShapes.union(VoxelShapes.cuboid(0.5, 0, 0.25, 1, 0.875, 0.75), VoxelShapes.cuboid(0, 0.875, 0, 1, 1, 1));
-			default:
-				return VoxelShapes.fullCube();
-		}
+		return switch (dir) {
+			case NORTH -> VoxelShapes.union(Block.createCuboidShape(4, 0, 8, 12, 13, 16), Block.createCuboidShape(0, 13, 0, 16, 16, 16));
+			case SOUTH -> VoxelShapes.union(Block.createCuboidShape(4, 0, 0, 12, 13, 8), Block.createCuboidShape(0, 13, 0, 16, 16, 16));
+			case EAST -> VoxelShapes.union(Block.createCuboidShape(0, 0, 4, 8, 13, 12), Block.createCuboidShape(0, 13, 0, 16, 16, 16));
+			case WEST -> VoxelShapes.union(Block.createCuboidShape(8, 0, 4, 16, 13, 12), Block.createCuboidShape(0, 13, 0, 16, 16, 16));
+			default -> Block.createCuboidShape(1, 1, 1, 1, 1, 1);
+		};
 	}
 }
