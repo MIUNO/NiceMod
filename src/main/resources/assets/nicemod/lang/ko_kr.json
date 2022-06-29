@@ -118,6 +118,9 @@
     "block.nicemod.weathercock": "풍향계",
     "block.nicemod.cobblestone_gate": "조약돌 게이트",
     "block.nicemod.glass_panel": "유리판",
+    "block.nicemod.globe": "?????",
+    "block.nicemod.telescope": "?????",
     "block.nicemod.pipe": "파이프",
+    "block.nicemod.valve": "?????",
     "subtitles.nicemod.bell": "종소리가 울림"
 }
