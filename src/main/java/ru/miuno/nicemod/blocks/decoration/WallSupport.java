@@ -22,7 +22,7 @@ public class WallSupport extends Horizontal {
 			case SOUTH -> Block.createCuboidShape(5, 0, 0, 11, 16, 3);
 			case EAST -> Block.createCuboidShape(0, 0, 5, 3, 16, 11);
 			case WEST -> Block.createCuboidShape(13, 0, 5, 16, 16, 11);
-			default -> Block.createCuboidShape(1, 1, 1, 1, 1, 1);
+			default -> Block.createCuboidShape(16, 16, 16, 16, 16, 16);
 		};
 	}
 }

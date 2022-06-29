@@ -1,0 +1,40 @@
+{
+  "variants": {
+    "facing=north,half=bottom": {
+      "model": "nicemod:block/oak_horizontal_support_up"
+    },
+    "facing=east,half=bottom": {
+      "model": "nicemod:block/oak_horizontal_support_up",
+      "y": 90,
+      "uvlock": "true"
+    },
+    "facing=south,half=bottom": {
+      "model": "nicemod:block/oak_horizontal_support_up",
+      "y": 180,
+      "uvlock": "true"
+    },
+    "facing=west,half=bottom": {
+      "model": "nicemod:block/oak_horizontal_support_up",
+      "y": 270,
+      "uvlock": "true"
+    },
+    "facing=north,half=top": {
+      "model": "nicemod:block/oak_horizontal_support_down"
+    },
+    "facing=east,half=top": {
+      "model": "nicemod:block/oak_horizontal_support_down",
+      "y": 90,
+      "uvlock": "true"
+    },
+    "facing=south,half=top": {
+      "model": "nicemod:block/oak_horizontal_support_down",
+      "y": 180,
+      "uvlock": "true"
+    },
+    "facing=west,half=top": {
+      "model": "nicemod:block/oak_horizontal_support_down",
+      "y": 270,
+      "uvlock": "true"
+    }
+  }
+}

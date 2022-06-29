@@ -23,7 +23,7 @@ public class BigSupport extends Horizontal {
 			case SOUTH -> VoxelShapes.union(Block.createCuboidShape(5, 0, 0, 11, 13, 3), Block.createCuboidShape(0, 13, 0, 16, 16, 16));
 			case EAST -> VoxelShapes.union(Block.createCuboidShape(0, 0, 5, 3, 13, 11), Block.createCuboidShape(0, 13, 0, 16, 16, 16));
 			case WEST -> VoxelShapes.union(Block.createCuboidShape(13, 0, 5, 16, 13, 11), Block.createCuboidShape(0, 13, 0, 16, 16, 16));
-			default -> Block.createCuboidShape(1, 1, 1, 1, 1, 1);
+			default -> Block.createCuboidShape(16, 16, 16, 16, 16, 16);
 		};
 	}
 }

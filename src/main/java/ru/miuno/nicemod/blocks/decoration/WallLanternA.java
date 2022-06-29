@@ -1,5 +1,6 @@
 package ru.miuno.nicemod.blocks.decoration;
 
+import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.ShapeContext;
 import net.minecraft.util.math.BlockPos;
@@ -17,17 +18,12 @@ public class WallLanternA extends Horizontal {
 	@Override
 	public VoxelShape getOutlineShape(BlockState state, BlockView view, BlockPos pos, ShapeContext ctx) {
 		Direction dir = state.get(FACING);
-		switch(dir) {
-			case NORTH:
-				return VoxelShapes.union(VoxelShapes.cuboid(-0.5, 0, 0.3, 1.5, 1, 0.7));
-			case SOUTH:
-				return VoxelShapes.union(VoxelShapes.cuboid(-0.5, 0, 0.3, 1.5, 1, 0.7));
-			case EAST:
-				return VoxelShapes.union(VoxelShapes.cuboid(0.3, 0, -0.5, 0.7, 1, 1.5));
-			case WEST:
-				return VoxelShapes.union(VoxelShapes.cuboid(0.3, 0, -0.5, 0.7, 1, 1.5));
-			default:
-				return VoxelShapes.fullCube();
-		}
+		return switch (dir) {
+			case NORTH -> VoxelShapes.union(Block.createCuboidShape(5, 0, 5, 11, 13, 11), Block.createCuboidShape(-8, 13, 5, 24, 16, 11));
+			case SOUTH -> VoxelShapes.union(Block.createCuboidShape(5, 0, 5, 11, 13, 11), Block.createCuboidShape(-8, 13, 5, 24, 16, 11));
+			case EAST -> VoxelShapes.union(Block.createCuboidShape(5, 0, 5, 11, 13, 11), Block.createCuboidShape(5, 13, -8, 11, 16, 24));
+			case WEST -> VoxelShapes.union(Block.createCuboidShape(5, 0, 5, 11, 13, 11), Block.createCuboidShape(5, 13, -8, 11, 16, 24));
+			default -> Block.createCuboidShape(16, 16, 16, 16, 16, 16);
+		};
 	}
 }

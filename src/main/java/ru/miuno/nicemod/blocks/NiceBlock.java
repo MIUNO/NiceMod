@@ -105,6 +105,7 @@ public class NiceBlock {
     public static final Block OAK_GATE_PEAKS = registerBlock("oak_gate_peaks", new GateBlockPeaks(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block OAK_PLATFORM = registerBlock("oak_platform", new Platform(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block OAK_WINDOW = registerBlock("oak_window", new Window(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+    public static final Block OAK_HORIZONTAL_SUPPORT = registerBlock("oak_horizontal_support", new HorizontalSupport(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     // Spruce
     public static final Block SPRUCE_DECORE1 = registerBlock("spruce_iron_armor_stand", new Decor(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block SPRUCE_SUPPORT = registerBlock("spruce_support", new Support(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
@@ -123,6 +124,7 @@ public class NiceBlock {
     public static final Block SPRUCE_GATE_PEAKS = registerBlock("spruce_gate_peaks", new GateBlockPeaks(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block SPRUCE_PLATFORM = registerBlock("spruce_platform", new Platform(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block SPRUCE_WINDOW = registerBlock("spruce_window", new Window(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+    public static final Block SPRUCE_HORIZONTAL_SUPPORT = registerBlock("spruce_horizontal_support", new HorizontalSupport(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
 
     public static final Block BRIDGE = registerBlock("bridge", new Bridge(FabricBlockSettings.copy(Blocks.OAK_LOG)));
     public static final Block CANNON = registerBlock("cannon", new Cannon(FabricBlockSettings.copy(Blocks.OAK_LOG)));

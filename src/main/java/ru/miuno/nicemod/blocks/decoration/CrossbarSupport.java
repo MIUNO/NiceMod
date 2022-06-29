@@ -23,7 +23,7 @@ public class CrossbarSupport extends Horizontal {
 			case SOUTH -> VoxelShapes.union(Block.createCuboidShape(4, 0, 0, 12, 13, 8), Block.createCuboidShape(0, 13, 0, 16, 16, 16));
 			case EAST -> VoxelShapes.union(Block.createCuboidShape(0, 0, 4, 8, 13, 12), Block.createCuboidShape(0, 13, 0, 16, 16, 16));
 			case WEST -> VoxelShapes.union(Block.createCuboidShape(8, 0, 4, 16, 13, 12), Block.createCuboidShape(0, 13, 0, 16, 16, 16));
-			default -> Block.createCuboidShape(1, 1, 1, 1, 1, 1);
+			default -> Block.createCuboidShape(16, 16, 16, 16, 16, 16);
 		};
 	}
 }
