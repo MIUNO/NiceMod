@@ -10,7 +10,7 @@ public class NiceItemGroup {
 
 	public static final ItemGroup ITEM_GROUP = FabricItemGroupBuilder.build(
 		new Identifier("nicemod", "general"),
-		() -> new ItemStack(NiceBlock.WEATHERCOCK)); {
+		() -> new ItemStack(NiceBlock.GLOBE)); {
 			
 		}
 }
