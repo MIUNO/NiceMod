@@ -10,7 +10,6 @@ import net.minecraft.util.Hand;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.shape.VoxelShape;
-import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 import ru.miuno.nicemod.NiceMod;
@@ -27,7 +26,7 @@ public class Bell extends Block {
 
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
-        return VoxelShapes.cuboid(0.375, 0, 0.375, 0.625, 0.2, 0.625);
+        return Block.createCuboidShape(6, 0, 6, 10, 3, 10);
     }
     
     public boolean ring(World world, BlockPos blockPos) {
