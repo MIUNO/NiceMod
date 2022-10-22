@@ -1,7 +1,7 @@
   {
     "type": "minecraft:stonecutting",
     "ingredient": {
-        "item": "minecraft:cobbled_deepslate"
+        "item": "minecraft:cobblestone"
     },
     "result": "nicemod:cobblestone_wallpipe",
     "count": 1
