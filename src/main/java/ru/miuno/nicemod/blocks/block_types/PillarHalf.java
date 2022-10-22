@@ -89,8 +89,4 @@ public class PillarHalf extends PillarBlock implements Waterloggable {
         }
         return Fluids.EMPTY.getDefaultState();
     }
-    @Override
-    public boolean canPathfindThrough(BlockState state, BlockView world, BlockPos pos, NavigationType type) {
-        return true;
-    }
 }

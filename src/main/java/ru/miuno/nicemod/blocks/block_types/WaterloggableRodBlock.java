@@ -57,8 +57,4 @@ public class WaterloggableRodBlock extends RodBlock implements Waterloggable {
             case WEST -> VoxelShapes.union(VoxelShapes.cuboid(0.5, 0, 0, 1, 0.25, 1), VoxelShapes.cuboid(0.5, 0.75, 0, 1, 1, 1), VoxelShapes.cuboid(0.5, 0, 0, 1, 1, 0.25), VoxelShapes.cuboid(0.5, 0, 0.75, 1, 1, 1));
         };
     }
-    @Override
-    public boolean canPathfindThrough(BlockState state, BlockView world, BlockPos pos, NavigationType type) {
-        return true;
-    }
 }

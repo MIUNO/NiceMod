@@ -74,9 +74,4 @@ public class Half extends Block implements Waterloggable {
         }
         return Fluids.EMPTY.getDefaultState();
     }
-    
-    @Override
-    public boolean canPathfindThrough(BlockState state, BlockView world, BlockPos pos, NavigationType type) {
-        return true;
-    }
 }
