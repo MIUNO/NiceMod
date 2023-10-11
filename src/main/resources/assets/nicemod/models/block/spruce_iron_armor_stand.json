@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "nicemod:block/spruce_support",
-		"1": "nicemod:armor/iron_layer_1",
-		"2": "nicemod:armor/iron_layer_2",
+		"1": "nicemod:block/armor/iron_layer_1",
+		"2": "nicemod:block/armor/iron_layer_2",
 		"particle": "nicemod:block/spruce_support"
 	},
 	"elements": [

@@ -1,53 +1,52 @@
 {
-  "schemaVersion": 1,
-  "id": "nicemod",
-  "version": "${version}",
-
-  "name": "NiceMod - New blocks",
-  "description": "A mod that adds new decorative and building blocks",
-  "authors": [
-    "MIUNO"
-  ],
-  "contact": {
-    "homepage": "https://github.com/MIUNO/NiceMod",
-    "sources": "https://github.com/MIUNO/NiceMod",
-    "issues": "https://github.com/MIUNO/NiceMod/issues"
-  },
-
-  "custom": {
-    "modmenu": {
-        "links": { "MIUNO": "https://miuno.ru/" },
-        "id": "nicemod",
-        "name": "NiceMod - New blocks",
-        "description": "A mod that adds new decorative and building blocks",
-        "icon": "assets/nicemod/icon.png",
-        "badges": []
-    }
-  },
-
-  "license": "MIT",
-  "icon": "assets/nicemod/icon.png",
-
-  "environment": "*",
-  "entrypoints": {
-    "main": [
-      "ru.miuno.nicemod.NiceMod"
-    ],
-    "client": [
-      "ru.miuno.nicemod.NiceClient"
-    ]
-  },
-  "mixins": [
-    "nicemod.mixins.json"
-  ],
-
-  "depends": {
-    "fabricloader": ">=0.11.3",
-    "fabric": "*",
-    "minecraft": "1.19.x",
-    "java": ">=17"
-  },
-  "suggests": {
-    "another-mod": "*"
-  }
+	"schemaVersion": 1,
+	"id": "nicemod",
+	"version": "${version}",
+	"name": "NiceMod - New blocks",
+	"description": "A mod that adds new decorative and building blocks",
+	"authors": [
+		"MIUNO"
+	],
+	"contact": {
+		"homepage": "https://github.com/MIUNO/NiceMod",
+		"sources": "https://github.com/MIUNO/NiceMod",
+		"issues": "https://github.com/MIUNO/NiceMod/issues"
+	},
+	"custom": {
+	"modmenu": {
+		"links": { "MIUNO": "https://miuno.github.io/" },
+		"id": "nicemod",
+		"name": "NiceMod - New blocks",
+		"description": "A mod that adds new decorative and building blocks",
+		"icon": "assets/nicemod/icon.png",
+		"badges": []
+		}
+	},
+	"license": "MIT",
+	"icon": "assets/modid/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"ru.miuno.NiceMod"
+		],
+		"client": [
+			"ru.miuno.NiceClient"
+		]
+	},
+	"mixins": [
+		"nicemod.mixins.json",
+		{
+			"config": "nicemod.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
 }
