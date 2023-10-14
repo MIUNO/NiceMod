@@ -12,7 +12,6 @@ import net.minecraft.block.BlockRenderType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.ShapeContext;
 import net.minecraft.block.Waterloggable;
-import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.fluid.FluidState;
 import net.minecraft.fluid.Fluids;
@@ -53,7 +52,6 @@ public abstract class APipe extends Block implements Waterloggable {
 
     public abstract boolean canConnect(World world, BlockState state, BlockPos pos, BlockState other, Direction dir);
     public abstract BlockState buildDefaultState(ItemPlacementContext ctx);
-    public abstract BlockEntity createBlockEntity(BlockPos pos, BlockState state);
 
     public ArrayList<Direction> connections(BlockState state) {
         ArrayList<Direction> connections = new ArrayList<>();

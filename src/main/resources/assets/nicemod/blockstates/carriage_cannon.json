@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "nicemod:block/carriage_cannon",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "nicemod:block/carriage_cannon",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "nicemod:block/carriage_cannon"
+    },
+    "facing=west": {
+      "model": "nicemod:block/carriage_cannon",
+      "y": 90
+    }
+  }
+}

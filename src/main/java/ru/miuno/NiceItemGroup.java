@@ -144,6 +144,9 @@ public class NiceItemGroup {
 		entries.add(NiceBlock.BELL);
 		entries.add(NiceBlock.PIPE);
 		entries.add(NiceBlock.VALVE);
+	// Test
+		entries.add(NiceBlock.COBBLESTONE_OAK_FENCE);
+		entries.add(NiceBlock.CARRIAGE_CANNON);
 	})
 	.build();
 }

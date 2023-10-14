@@ -1,7 +1,6 @@
 package ru.miuno.blocks.block;
 
 import net.minecraft.block.BlockState;
-import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
@@ -28,10 +27,5 @@ public class Pipe extends APipe {
         }
 
         return state;
-    }
-
-    @Override
-    public BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
-        return null;
     }
 }
