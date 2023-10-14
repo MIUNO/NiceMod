@@ -1,6 +1,7 @@
 {
 "replace": false,
 	"values": [
-		"nicemod:cobblestone_oak_fence"
+		"nicemod:cobblestone_oak_fence",
+		"nicemod:cobblestone_spruce_fence"
 	]
 }

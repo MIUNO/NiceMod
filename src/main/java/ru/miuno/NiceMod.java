@@ -22,7 +22,7 @@ public class NiceMod implements ModInitializer {
 		LOGGER.info("Hello!");
 		
 		NiceBlock.registerModBlocks();
+		NiceItemGroup.registerItemGroup();
 		Registry.register(Registries.SOUND_EVENT, NiceMod.BELL, BELL_EVENT);
-		Registry.register(Registries.ITEM_GROUP, new Identifier("nicemod", "nicegroup"), NiceItemGroup.NICEMOD);
 	}
 }

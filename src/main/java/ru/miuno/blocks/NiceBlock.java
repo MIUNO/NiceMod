@@ -1,6 +1,7 @@
 package ru.miuno.blocks;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -9,6 +10,7 @@ import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import ru.miuno.NiceItemGroup;
 import ru.miuno.NiceMod;
 import ru.miuno.blocks.block.Basis;
 import ru.miuno.blocks.block.Bell;
@@ -148,24 +150,24 @@ public class NiceBlock {
     public static final Block OAK_WINDOW = registerBlock("oak_window", new Window(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block OAK_HORIZONTAL_SUPPORT = registerBlock("oak_horizontal_support", new HorizontalSupport(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     // Spruce
-    public static final Block SPRUCE_DECORE1 = registerBlock("spruce_iron_armor_stand", new Decor(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
-    public static final Block SPRUCE_SUPPORT = registerBlock("spruce_support", new Support(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
-    public static final Block SPRUCE_BIG_SUPPORT = registerBlock("spruce_big_support", new BigSupport(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
-    public static final Block SPRUCE_SMALL_SUPPORT = registerBlock("spruce_small_support", new SmallSupport(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
-    public static final Block SPRUCE_WALL_SUPPORT = registerBlock("spruce_wall_support", new WallSupport(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+    public static final Block SPRUCE_DECORE1 = registerBlock("spruce_iron_armor_stand", new Decor(FabricBlockSettings.copy(Blocks.SPRUCE_PLANKS)));
+    public static final Block SPRUCE_SUPPORT = registerBlock("spruce_support", new Support(FabricBlockSettings.copy(Blocks.SPRUCE_PLANKS)));
+    public static final Block SPRUCE_BIG_SUPPORT = registerBlock("spruce_big_support", new BigSupport(FabricBlockSettings.copy(Blocks.SPRUCE_PLANKS)));
+    public static final Block SPRUCE_SMALL_SUPPORT = registerBlock("spruce_small_support", new SmallSupport(FabricBlockSettings.copy(Blocks.SPRUCE_PLANKS)));
+    public static final Block SPRUCE_WALL_SUPPORT = registerBlock("spruce_wall_support", new WallSupport(FabricBlockSettings.copy(Blocks.SPRUCE_PLANKS)));
     public static final Block SPRUCE_WALLLANTERN = registerBlock("spruce_wall_lantern", new WallLantern(FabricBlockSettings.copy(Blocks.LANTERN)));
     public static final Block SPRUCE_WALLLANTERNA = registerBlock("spruce_wall_lantern_a", new WallLanternA(FabricBlockSettings.copy(Blocks.LANTERN)));
-    public static final Block SPRUCE_CROSSBAR = registerBlock("spruce_crossbar", new Crossbar(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
-    public static final Block SPRUCE_CROSSBAR_A = registerBlock("spruce_crossbar_a", new CrossbarA(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
-    public static final Block SPRUCE_CROSSBAR_B = registerBlock("spruce_crossbar_b", new CrossbarB(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
-    public static final Block SPRUCE_CROSSBAR_C = registerBlock("spruce_crossbar_support", new CrossbarSupport(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
-    public static final Block SPRUCE_CROSSBAR_D = registerBlock("spruce_crossbar_platform", new CrossbarPlatform(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
-    public static final Block SPRUCE_POST = registerBlock("spruce_post", new Post(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
-    public static final Block SPRUCE_GATE = registerBlock("spruce_gate", new GateBlock(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
-    public static final Block SPRUCE_GATE_PEAKS = registerBlock("spruce_gate_peaks", new GateBlockPeaks(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
-    public static final Block SPRUCE_PLATFORM = registerBlock("spruce_platform", new Platform(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
-    public static final Block SPRUCE_WINDOW = registerBlock("spruce_window", new Window(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
-    public static final Block SPRUCE_HORIZONTAL_SUPPORT = registerBlock("spruce_horizontal_support", new HorizontalSupport(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+    public static final Block SPRUCE_CROSSBAR = registerBlock("spruce_crossbar", new Crossbar(FabricBlockSettings.copy(Blocks.SPRUCE_PLANKS)));
+    public static final Block SPRUCE_CROSSBAR_A = registerBlock("spruce_crossbar_a", new CrossbarA(FabricBlockSettings.copy(Blocks.SPRUCE_PLANKS)));
+    public static final Block SPRUCE_CROSSBAR_B = registerBlock("spruce_crossbar_b", new CrossbarB(FabricBlockSettings.copy(Blocks.SPRUCE_PLANKS)));
+    public static final Block SPRUCE_CROSSBAR_C = registerBlock("spruce_crossbar_support", new CrossbarSupport(FabricBlockSettings.copy(Blocks.SPRUCE_PLANKS)));
+    public static final Block SPRUCE_CROSSBAR_D = registerBlock("spruce_crossbar_platform", new CrossbarPlatform(FabricBlockSettings.copy(Blocks.SPRUCE_PLANKS)));
+    public static final Block SPRUCE_POST = registerBlock("spruce_post", new Post(FabricBlockSettings.copy(Blocks.SPRUCE_PLANKS)));
+    public static final Block SPRUCE_GATE = registerBlock("spruce_gate", new GateBlock(FabricBlockSettings.copy(Blocks.SPRUCE_PLANKS)));
+    public static final Block SPRUCE_GATE_PEAKS = registerBlock("spruce_gate_peaks", new GateBlockPeaks(FabricBlockSettings.copy(Blocks.SPRUCE_PLANKS)));
+    public static final Block SPRUCE_PLATFORM = registerBlock("spruce_platform", new Platform(FabricBlockSettings.copy(Blocks.SPRUCE_PLANKS)));
+    public static final Block SPRUCE_WINDOW = registerBlock("spruce_window", new Window(FabricBlockSettings.copy(Blocks.SPRUCE_PLANKS)));
+    public static final Block SPRUCE_HORIZONTAL_SUPPORT = registerBlock("spruce_horizontal_support", new HorizontalSupport(FabricBlockSettings.copy(Blocks.SPRUCE_PLANKS)));
 
     public static final Block BRIDGE = registerBlock("bridge", new Bridge(FabricBlockSettings.copy(Blocks.OAK_LOG)));
     public static final Block CANNON = registerBlock("cannon", new Cannon(FabricBlockSettings.copy(Blocks.OAK_LOG)));
@@ -194,7 +196,8 @@ public class NiceBlock {
     public static final Block VALVE = registerBlock("valve", new Valve(FabricBlockSettings.copy(Blocks.COPPER_BLOCK)));
 
 // Test
-    public static final Block COBBLESTONE_OAK_FENCE = registerBlock("cobblestone_oak_fence", new WoodWall(FabricBlockSettings.copy(Blocks.COBBLESTONE)));
+    public static final Block COBBLESTONE_OAK_FENCE = registerBlock("cobblestone_oak_fence", new WoodWall(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+    public static final Block COBBLESTONE_SPRUCE_FENCE = registerBlock("cobblestone_spruce_fence", new WoodWall(FabricBlockSettings.copy(Blocks.SPRUCE_PLANKS)));
     public static final Block CARRIAGE_CANNON = registerBlock("carriage_cannon", new Cannon(FabricBlockSettings.copy(Blocks.OAK_LOG)));
 
     private static Block registerBlock(String name, Block block) {
@@ -203,10 +206,11 @@ public class NiceBlock {
     }
     
     private static Item registerBlockItem(String name, Block block){
-        return Registry.register(Registries.ITEM, new Identifier(NiceMod.MOD_ID, name),
-            new BlockItem(block, new FabricItemSettings()));
+        Item item = Registry.register(Registries.ITEM, new Identifier(NiceMod.MOD_ID, name), new BlockItem(block, new FabricItemSettings()));
+        ItemGroupEvents.modifyEntriesEvent(NiceItemGroup.NICEMOD).register(entries -> { entries.add(item); });
+        return item;
     }
-
+    
     public static void registerModBlocks(){
         System.out.println("registering mod blocks for"+NiceMod.MOD_ID);
     }
