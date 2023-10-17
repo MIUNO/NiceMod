@@ -1,0 +1,44 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "nicemod:block/walls/oak/oak_wall_post"
+      }
+    },
+    {
+      "apply": {
+        "model": "nicemod:block/walls/oak/oak_wall_side"
+      },
+      "when": {
+        "north": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "nicemod:block/walls/oak/oak_wall_side",
+        "y": 90
+      },
+      "when": {
+        "east": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "nicemod:block/walls/oak/oak_wall_side",
+        "y": 180
+      },
+      "when": {
+        "south": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "nicemod:block/walls/oak/oak_wall_side",
+        "y": 270
+      },
+      "when": {
+        "west": "true"
+      }
+    }
+  ]
+}

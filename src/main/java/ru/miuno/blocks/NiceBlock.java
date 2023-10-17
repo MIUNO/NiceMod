@@ -27,6 +27,7 @@ import ru.miuno.blocks.block.SlabLoophole;
 import ru.miuno.blocks.block.SlabRecess;
 import ru.miuno.blocks.block.SlabRecess_a;
 import ru.miuno.blocks.block.WallPipe;
+import ru.miuno.blocks.block.WoodFence;
 import ru.miuno.blocks.block.WoodWall;
 import ru.miuno.blocks.decoration.BigSupport;
 import ru.miuno.blocks.decoration.Bridge;
@@ -196,9 +197,10 @@ public class NiceBlock {
     public static final Block VALVE = registerBlock("valve", new Valve(FabricBlockSettings.copy(Blocks.COPPER_BLOCK)));
 
 // Test
-    public static final Block COBBLESTONE_OAK_FENCE = registerBlock("cobblestone_oak_fence", new WoodWall(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
-    public static final Block COBBLESTONE_SPRUCE_FENCE = registerBlock("cobblestone_spruce_fence", new WoodWall(FabricBlockSettings.copy(Blocks.SPRUCE_PLANKS)));
+    public static final Block COBBLESTONE_OAK_FENCE = registerBlock("cobblestone_oak_fence", new WoodFence(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+    public static final Block COBBLESTONE_SPRUCE_FENCE = registerBlock("cobblestone_spruce_fence", new WoodFence(FabricBlockSettings.copy(Blocks.SPRUCE_PLANKS)));
     public static final Block CARRIAGE_CANNON = registerBlock("carriage_cannon", new Cannon(FabricBlockSettings.copy(Blocks.OAK_LOG)));
+    public static final Block OAK_WALL = registerBlock("oak_wall", new WoodWall(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
