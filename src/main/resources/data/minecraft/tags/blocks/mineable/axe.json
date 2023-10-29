@@ -4,7 +4,7 @@
 		"nicemod:bell",
         "nicemod:bridge",
         "nicemod:cannon",
-        "nicemod:carriage_cannon",
+		"nicemod:carriage_cannon",
         "nicemod:mortirer",
 		"nicemod:crate1",
 		"nicemod:crate1_a",
@@ -29,6 +29,7 @@
 		"nicemod:oak_post",
 		"nicemod:oak_horizontal_support",
 		"nicemod:cobblestone_oak_fence",
+		"nicemod:oak_wall",
 		"nicemod:spruce_iron_armor_stand",
 		"nicemod:spruce_support",
 		"nicemod:spruce_big_support",
@@ -47,6 +48,7 @@
 		"nicemod:spruce_gate_peaks",
 		"nicemod:spruce_post",
 		"nicemod:spruce_horizontal_support",
-		"nicemod:cobblestone_spruce_fence"
+		"nicemod:cobblestone_spruce_fence",
+		"nicemod:spruce_wall"
     ]
   }

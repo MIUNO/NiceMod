@@ -150,6 +150,8 @@ public class NiceBlock {
     public static final Block OAK_PLATFORM = registerBlock("oak_platform", new Platform(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block OAK_WINDOW = registerBlock("oak_window", new Window(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block OAK_HORIZONTAL_SUPPORT = registerBlock("oak_horizontal_support", new HorizontalSupport(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+    public static final Block COBBLESTONE_OAK_FENCE = registerBlock("cobblestone_oak_fence", new WoodFence(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
+    public static final Block OAK_WALL = registerBlock("oak_wall", new WoodWall(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     // Spruce
     public static final Block SPRUCE_DECORE1 = registerBlock("spruce_iron_armor_stand", new Decor(FabricBlockSettings.copy(Blocks.SPRUCE_PLANKS)));
     public static final Block SPRUCE_SUPPORT = registerBlock("spruce_support", new Support(FabricBlockSettings.copy(Blocks.SPRUCE_PLANKS)));
@@ -169,9 +171,12 @@ public class NiceBlock {
     public static final Block SPRUCE_PLATFORM = registerBlock("spruce_platform", new Platform(FabricBlockSettings.copy(Blocks.SPRUCE_PLANKS)));
     public static final Block SPRUCE_WINDOW = registerBlock("spruce_window", new Window(FabricBlockSettings.copy(Blocks.SPRUCE_PLANKS)));
     public static final Block SPRUCE_HORIZONTAL_SUPPORT = registerBlock("spruce_horizontal_support", new HorizontalSupport(FabricBlockSettings.copy(Blocks.SPRUCE_PLANKS)));
+    public static final Block COBBLESTONE_SPRUCE_FENCE = registerBlock("cobblestone_spruce_fence", new WoodFence(FabricBlockSettings.copy(Blocks.SPRUCE_PLANKS)));
+    public static final Block SPRUCE_WALL = registerBlock("spruce_wall", new WoodWall(FabricBlockSettings.copy(Blocks.SPRUCE_PLANKS)));
 
     public static final Block BRIDGE = registerBlock("bridge", new Bridge(FabricBlockSettings.copy(Blocks.OAK_LOG)));
     public static final Block CANNON = registerBlock("cannon", new Cannon(FabricBlockSettings.copy(Blocks.OAK_LOG)));
+    public static final Block CARRIAGE_CANNON = registerBlock("carriage_cannon", new Cannon(FabricBlockSettings.copy(Blocks.OAK_LOG)));
     public static final Block MORTIRER = registerBlock("mortirer", new Cannon(FabricBlockSettings.copy(Blocks.OAK_LOG)));
     public static final Block CRATE1 = registerBlock("crate1", new Crate(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
     public static final Block CRATE4 = registerBlock("crate1_a", new Crate(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
@@ -197,10 +202,6 @@ public class NiceBlock {
     public static final Block VALVE = registerBlock("valve", new Valve(FabricBlockSettings.copy(Blocks.COPPER_BLOCK)));
 
 // Test
-    public static final Block COBBLESTONE_OAK_FENCE = registerBlock("cobblestone_oak_fence", new WoodFence(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
-    public static final Block COBBLESTONE_SPRUCE_FENCE = registerBlock("cobblestone_spruce_fence", new WoodFence(FabricBlockSettings.copy(Blocks.SPRUCE_PLANKS)));
-    public static final Block CARRIAGE_CANNON = registerBlock("carriage_cannon", new Cannon(FabricBlockSettings.copy(Blocks.OAK_LOG)));
-    public static final Block OAK_WALL = registerBlock("oak_wall", new WoodWall(FabricBlockSettings.copy(Blocks.OAK_PLANKS)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
@@ -214,6 +215,6 @@ public class NiceBlock {
     }
     
     public static void registerModBlocks(){
-        System.out.println("registering mod blocks for"+NiceMod.MOD_ID);
+        System.out.println("registering mod blocks for " + NiceMod.MOD_ID);
     }
 }
