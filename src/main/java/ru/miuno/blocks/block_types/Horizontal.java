@@ -1,5 +1,6 @@
 package ru.miuno.blocks.block_types;
 
+import com.mojang.serialization.MapCodec;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.HorizontalFacingBlock;
@@ -26,7 +27,12 @@ public class Horizontal extends HorizontalFacingBlock implements Waterloggable {
 		.with(Properties.HORIZONTAL_FACING, Direction.NORTH)
 		.with(WATERLOGGED, false));
 	}
- 
+
+	@Override
+	protected MapCodec<? extends HorizontalFacingBlock> getCodec() {
+		return null;
+	}
+
 	@Override
 	protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
 		builder.add(Properties.HORIZONTAL_FACING, WATERLOGGED);

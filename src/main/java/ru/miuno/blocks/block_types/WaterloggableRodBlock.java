@@ -1,5 +1,6 @@
 package ru.miuno.blocks.block_types;
 
+import com.mojang.serialization.MapCodec;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.RodBlock;
@@ -26,6 +27,11 @@ public class WaterloggableRodBlock extends RodBlock implements Waterloggable {
 		.with(Properties.FACING, Direction.UP)
 		.with(WATERLOGGED, false));
 	}
+
+    @Override
+    protected MapCodec<? extends RodBlock> getCodec() {
+        return null;
+    }
 
     @Override
     protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {

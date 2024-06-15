@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
 import ru.miuno.blocks.NiceBlock;
 
 public class NiceItemGroup {
-	public static final RegistryKey<ItemGroup> NICEMOD = RegistryKey.of(RegistryKeys.ITEM_GROUP, new Identifier(NiceMod.MOD_ID, "niceitemgroup"));
+	public static final RegistryKey<ItemGroup> NICEMOD = RegistryKey.of(RegistryKeys.ITEM_GROUP, Identifier.of(NiceMod.MOD_ID, "niceitemgroup"));
 
 	public static void registerItemGroup(){
         Registry.register(Registries.ITEM_GROUP, NICEMOD, FabricItemGroup.builder()

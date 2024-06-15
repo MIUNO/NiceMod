@@ -19,7 +19,6 @@ public class Bell extends Block {
         super(settings);
     }
 
-    @Override
     public ActionResult onUse(BlockState state, World world, BlockPos blockPos, PlayerEntity player, Hand hand, BlockHitResult hit) {
         return this.ring(world, blockPos) ? ActionResult.success(world.isClient) : ActionResult.PASS;
      }
