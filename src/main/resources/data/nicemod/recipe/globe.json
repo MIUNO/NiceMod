@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "12"
+    ],
+    "key": {
+        "1": {
+            "item": "minecraft:grass_block"
+        },
+        "2": {
+            "item": "minecraft:lapis_lazuli"
+        }
+    },
+    "result": {
+        "id": "nicemod:globe",
+        "count": 1
+    }
+}

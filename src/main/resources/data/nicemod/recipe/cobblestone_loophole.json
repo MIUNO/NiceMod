@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:cobblestone"
+    },
+    "result": {
+        "id": "nicemod:cobblestone_loophole",
+        "count": 1
+    }
+}

@@ -2,11 +2,11 @@
 	"credit": "Made with Blockbench",
 	"ambientocclusion": false,
 	"textures": {
-		"0": "nicemod:block/cobblestone",
+		"0": "minecraft:block/cobblestone",
 		"1": "nicemod:block/oak_support",
-		"2": "nicemod:block/coarse_dirt",
-		"3": "nicemod:block/flowers/red_tulip",
-		"particle": "nicemod:block/cobblestone"
+		"2": "minecraft:block/coarse_dirt",
+		"3": "minecraft:block/red_tulip",
+		"particle": "minecraft:block/cobblestone"
 	},
 	"elements": [
 		{

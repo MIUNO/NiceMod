@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "nicemod:block/bridge",
-		"particle": "nicemod:block/oak_log"
+		"particle": "minecraft:block/oak_log"
 	},
 	"elements": [
 		{

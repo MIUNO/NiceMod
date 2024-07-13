@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-      "item": "minecraft:spruce_planks"
-    },
-  "result": "nicemod:spruce_platform",
-  "count": 2
-}

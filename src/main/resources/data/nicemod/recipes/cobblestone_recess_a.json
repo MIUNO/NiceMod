@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-      "item": "minecraft:cobblestone"
-  },
-  "result": "nicemod:cobblestone_recess_a",
-  "count": 1
-}

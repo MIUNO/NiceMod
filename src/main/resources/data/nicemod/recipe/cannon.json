@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "11 ",
+        "222"
+    ],
+    "key": {
+        "1": {
+            "item": "minecraft:iron_ingot"
+        },
+        "2": {
+            "item": "minecraft:oak_slab"
+        }
+    },
+    "result": {
+        "id": "nicemod:cannon",
+        "count": 1
+    }
+}

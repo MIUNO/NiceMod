@@ -3,10 +3,10 @@
 	"parent": "block/block",
 	"textures": {
 		"0": "nicemod:block/pipe",
-		"1": "nicemod:block/sandstone",
-		"2": "nicemod:block/sandstone_bottom",
-		"3": "nicemod:block/sandstone_top",
-		"particle": "nicemod:block/sandstone"
+		"1": "minecraft:block/sandstone",
+		"2": "minecraft:block/sandstone_bottom",
+		"3": "minecraft:block/sandstone_top",
+		"particle": "minecraft:block/sandstone"
 	},
 	"elements": [
 		{

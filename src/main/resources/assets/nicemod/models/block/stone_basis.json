@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "nicemod:block/stone",
-		"particle": "nicemod:block/stone"
+		"0": "minecraft:block/stone",
+		"particle": "minecraft:block/stone"
 	},
 	"elements": [
 		{

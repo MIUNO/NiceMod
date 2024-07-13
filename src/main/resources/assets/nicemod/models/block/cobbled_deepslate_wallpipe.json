@@ -3,8 +3,8 @@
 	"parent": "block/block",
 	"textures": {
 		"0": "nicemod:block/pipe",
-		"1": "nicemod:block/cobbled_deepslate",
-		"particle": "nicemod:block/cobbled_deepslate"
+		"1": "minecraft:block/cobbled_deepslate",
+		"particle": "minecraft:block/cobbled_deepslate"
 	},
 	"elements": [
 		{

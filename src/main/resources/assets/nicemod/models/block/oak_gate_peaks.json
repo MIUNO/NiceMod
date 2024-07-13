@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "nicemod:block/oak_support",
-		"1": "nicemod:block/stone",
+		"1": "minecraft:block/stone",
 		"particle": "nicemod:block/oak_support"
 	},
 	"elements": [

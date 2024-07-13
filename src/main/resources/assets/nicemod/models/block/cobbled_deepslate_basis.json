@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "nicemod:block/cobbled_deepslate",
-		"particle": "nicemod:block/cobbled_deepslate"
+		"0": "minecraft:block/cobbled_deepslate",
+		"particle": "minecraft:block/cobbled_deepslate"
 	},
 	"elements": [
 		{

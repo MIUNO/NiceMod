@@ -4,7 +4,7 @@
 	"textures": {
 		"1": "nicemod:block/spruce_support",
 		"2": "nicemod:block/window_glass",
-		"3": "nicemod:block/glass_pane_top",
+		"3": "minecraft:block/glass_pane_top",
 		"particle": "nicemod:block/spruce_support"
 	},
 	"elements": [

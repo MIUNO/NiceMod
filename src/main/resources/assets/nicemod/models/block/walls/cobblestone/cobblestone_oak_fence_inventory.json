@@ -2,10 +2,10 @@
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:block/wall_inventory",
 	"textures": {
-		"0": "nicemod:block/cobblestone",
+		"0": "minecraft:block/cobblestone",
 		"1": "nicemod:block/iron",
 		"2": "nicemod:block/oak_support",
-		"particle": "nicemod:block/cobblestone"
+		"particle": "minecraft:block/cobblestone"
 	},
 	"elements": [
 		{

@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "nicemod:block/oak_planks",
+		"0": "minecraft:block/oak_planks",
 		"1": "nicemod:block/crate_a",
-		"particle": "nicemod:block/oak_planks"
+		"particle": "minecraft:block/oak_planks"
 	},
 	"elements": [
 		{

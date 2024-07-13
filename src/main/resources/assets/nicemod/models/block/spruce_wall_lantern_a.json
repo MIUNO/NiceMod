@@ -3,8 +3,8 @@
 	"parent": "block/block",
 	"textures": {
 		"1": "nicemod:block/spruce_support",
-		"particle": "nicemod:block/lantern",
-		"lantern": "nicemod:block/lantern"
+		"particle": "minecraft:block/lantern",
+		"lantern": "minecraft:block/lantern"
 	},
 	"elements": [
 		{

@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "212",
+        "212"
+    ],
+    "key": {
+        "1": {
+            "item": "minecraft:spruce_planks"
+        },
+        "2": {
+            "item": "minecraft:cobblestone"
+        }
+    },
+    "result": {
+        "id": "nicemod:cobblestone_spruce_fence",
+        "count": 6
+    }
+}

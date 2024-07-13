@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"1": "nicemod:block/oak_support",
-		"2": "nicemod:block/copper_block",
-		"particle": "nicemod:block/copper_block"
+		"2": "minecraft:block/copper_block",
+		"particle": "minecraft:block/copper_block"
 	},
 	"elements": [
 		{

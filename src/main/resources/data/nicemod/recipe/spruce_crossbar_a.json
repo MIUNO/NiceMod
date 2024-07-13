@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:spruce_planks"
+    },
+    "result": {
+        "id": "nicemod:spruce_crossbar_a",
+        "count": 1
+    }
+}

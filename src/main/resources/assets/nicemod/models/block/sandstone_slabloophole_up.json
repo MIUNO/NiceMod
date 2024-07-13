@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "nicemod:block/sandstone",
-		"1": "nicemod:block/sandstone_bottom",
-		"2": "nicemod:block/sandstone_top",
-		"particle": "nicemod:block/sandstone"
+		"0": "minecraft:block/sandstone",
+		"1": "minecraft:block/sandstone_bottom",
+		"2": "minecraft:block/sandstone_top",
+		"particle": "minecraft:block/sandstone"
 	},
 	"elements": [
 		{

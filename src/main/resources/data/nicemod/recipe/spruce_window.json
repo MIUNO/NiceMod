@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "222",
+        "111"
+    ],
+    "key": {
+        "1": {
+            "item": "minecraft:spruce_slab"
+        },
+        "2": {
+            "item": "minecraft:glass"
+        }
+    },
+    "result": {
+        "id": "nicemod:spruce_window",
+        "count": 8
+    }
+}

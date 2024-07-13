@@ -2,12 +2,12 @@
 	"credit": "Made with Blockbench",
 	"ambientocclusion": false,
 	"textures": {
-		"0": "nicemod:block/cobblestone",
+		"0": "minecraft:block/cobblestone",
 		"1": "nicemod:block/oak_support",
-		"2": "nicemod:block/coarse_dirt",
-		"3": "nicemod:block/flowers/peony_bottom",
-		"4": "nicemod:block/flowers/peony_top",
-		"particle": "nicemod:block/cobblestone"
+		"2": "minecraft:block/coarse_dirt",
+		"3": "minecraft:block/peony_bottom",
+		"4": "minecraft:block/peony_top",
+		"particle": "minecraft:block/cobblestone"
 	},
 	"elements": [
 		{
