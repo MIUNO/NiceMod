@@ -49,6 +49,8 @@
         "nicemod:spruce_post",
         "nicemod:spruce_horizontal_support",
         "nicemod:cobblestone_spruce_fence",
-        "nicemod:spruce_wall"
+        "nicemod:spruce_wall",
+        "nicemod:globe",
+        "nicemod:telescope"
     ]
 }
